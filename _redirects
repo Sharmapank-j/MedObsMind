@@ -1,0 +1,18 @@
+# Netlify Redirects File
+# https://docs.netlify.com/routing/redirects/
+
+# Redirect API calls to backend
+/api/*  https://api.medobsmind.in/:splat  200
+
+# Redirect old documentation paths
+/documentation/*  /docs/:splat  301
+
+# Force HTTPS (handled by Netlify by default, but explicit rule)
+http://medobsmind.netlify.app/*  https://medobsmind.netlify.app/:splat  301!
+
+# Custom domain redirect (uncomment when custom domain is set up)
+# http://medobsmind.in/*  https://medobsmind.in/:splat  301!
+# http://www.medobsmind.in/*  https://medobsmind.in/:splat  301!
+
+# 404 handling
+/*  /index.html  404

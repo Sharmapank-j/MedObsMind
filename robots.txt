@@ -1,0 +1,26 @@
+# robots.txt for MedObsMind
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /.netlify/
+Disallow: /.github/
+
+# Sitemap
+Sitemap: https://medobsmind.in/sitemap.xml
+Sitemap: https://sharmapank-j.github.io/MedObsMind/sitemap.xml
+Sitemap: https://medobsmind.netlify.app/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 10
+
+# Allow common bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /

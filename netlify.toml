@@ -1,0 +1,121 @@
+# Netlify Configuration for MedObsMind
+# Documentation: https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[build]
+  # Build command (not needed for static site, but can be used for processing)
+  command = "echo 'Building MedObsMind website...'"
+  
+  # Directory to publish (current directory contains index.html)
+  publish = "."
+  
+  # Base directory
+  base = "/"
+
+[build.environment]
+  # Node version (if needed for any build tools)
+  NODE_VERSION = "20"
+
+# Headers for security and performance
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # Security headers
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    
+    # Content Security Policy
+    Content-Security-Policy = """
+      default-src 'self'; 
+      script-src 'self' 'unsafe-inline'; 
+      style-src 'self' 'unsafe-inline'; 
+      img-src 'self' data: https:; 
+      font-src 'self' data:;
+      connect-src 'self';
+    """
+    
+    # Performance headers
+    Cache-Control = "public, max-age=3600, must-revalidate"
+
+# Cache static assets longer
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Redirect rules
+[[redirects]]
+  from = "/docs/*"
+  to = "/docs/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/api/*"
+  to = "https://api.medobsmind.in/:splat"
+  status = 200
+  force = false
+
+# SPA fallback (if needed in future)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = false
+
+# Custom domain configuration (optional)
+# [[redirects]]
+#   from = "https://medobsmind.netlify.app/*"
+#   to = "https://medobsmind.in/:splat"
+#   status = 301
+#   force = true
+
+# Form handling (if you add forms later)
+[build.processing]
+  skip_processing = false
+
+[build.processing.css]
+  bundle = true
+  minify = true
+
+[build.processing.js]
+  bundle = true
+  minify = true
+
+[build.processing.html]
+  pretty_urls = true
+
+[build.processing.images]
+  compress = true
+
+# Plugin configuration (optional - add as needed)
+# [[plugins]]
+#   package = "@netlify/plugin-lighthouse"
+
+# Context-specific settings
+[context.production]
+  command = "echo 'Production build'"
+
+[context.deploy-preview]
+  command = "echo 'Deploy preview build'"
+
+[context.branch-deploy]
+  command = "echo 'Branch deploy build'"
+
+# Development redirects
+[context.dev]
+  command = "echo 'Development build'"
+
+# Environment variables (add in Netlify UI)
+# GOOGLE_OAUTH_CLIENT_ID
+# API_ENDPOINT

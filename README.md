@@ -10,16 +10,24 @@ An intelligent clinical support system for real-time patient monitoring, clinica
 
 **🎉 MedObsMind is LIVE and accessible now!**
 
+[![Deploy to GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-success?logo=github)](https://sharmapank-j.github.io/MedObsMind)
+[![Deploy to Netlify](https://img.shields.io/badge/Deploy-Netlify-00C7B7?logo=netlify&logoColor=white)](https://app.netlify.com/start/deploy?repository=https://github.com/Sharmapank-j/MedObsMind)
+[![Website Status](https://img.shields.io/website?url=https%3A%2F%2Fsharmapank-j.github.io%2FMedObsMind)](https://sharmapank-j.github.io/MedObsMind)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 ### 🔗 Visit the Platform
 
 | Platform | URL | Status |
 |----------|-----|--------|
-| **🌐 Main Website** | **[https://sharmapank-j.github.io/MedObsMind](https://sharmapank-j.github.io/MedObsMind)** | ✅ **LIVE NOW** |
+| **🌐 GitHub Pages** | **[https://sharmapank-j.github.io/MedObsMind](https://sharmapank-j.github.io/MedObsMind)** | ✅ **LIVE NOW** |
+| **⚡ Netlify** | **[Deploy to Netlify →](https://app.netlify.com/start/deploy?repository=https://github.com/Sharmapank-j/MedObsMind)** | 🚀 **One-Click Deploy** |
 | **🌍 Custom Domain** | [https://medobsmind.in](https://medobsmind.in) | 🔄 Ready (DNS Setup) |
 | **🔌 API Endpoint** | [https://api.medobsmind.in](https://api.medobsmind.in) | 🔄 Ready (After Backend Deploy) |
 | **👨‍💼 Admin Portal** | [https://admin.medobsmind.in](https://admin.medobsmind.in) | 🔄 Ready (After Backend Deploy) |
 
 **Quick Access:** **[Click Here to Visit MedObsMind →](https://sharmapank-j.github.io/MedObsMind)**
+
+**Deploy Your Own:** [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Sharmapank-j/MedObsMind)
 
 ---
 
