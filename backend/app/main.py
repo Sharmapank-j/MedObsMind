@@ -12,7 +12,7 @@ from app.core.config import settings
 from app.core.database import engine, Base
 
 # Import routers
-from app.api import patients, vitals, alerts
+from app.api import patients, vitals, alerts, llm
 
 app = FastAPI(
     title="MedObsMind API",
@@ -65,6 +65,7 @@ async def health_check():
 app.include_router(patients.router, prefix="/api/v1", tags=["Patients"])
 app.include_router(vitals.router, prefix="/api/v1", tags=["Vitals"])
 app.include_router(alerts.router, prefix="/api/v1", tags=["Alerts"])
+app.include_router(llm.router, tags=["LLM - dsquaremedicalmodel"])
 
 @app.exception_handler(Exception)
 async def global_exception_handler(request, exc):
