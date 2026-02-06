@@ -413,15 +413,23 @@ MedObsMind has extensive documentation (130+ KB) covering every aspect:
   - "Explain don't decide" principle
   - LLaMA-3 8B, LoRA fine-tuning, RAG layer
   - Safety guardrails, confidence scoring, deployment
-- **[India Context](docs/INDIA_CONTEXT.md)** (20 KB) - India-specific considerations
+- **[India Context](docs/INDIA_CONTEXT.md)** (27 KB) - India-specific considerations ⭐ UPDATED
   - Population parameters, disease patterns, drug dosing
   - Infrastructure reality, language support, cultural factors
+  - **Geographic & Endemic Diseases:** 20+ diseases mapped by 6 regions, 4 seasons
+    - Northeast: Malaria, JE, Scrub Typhus | Eastern: Kala-azar, Cholera, Filariasis
+    - Northern: High Altitude Illness, Goiter | Western: Fluorosis, Heat Stroke, Snake Bite
+    - Southern: Dengue, Leptospirosis | Central: Malaria (high burden)
+  - Prevention strategies (vector, water, environmental, zoonotic)
+  - Public health integration (IDSP, NVBDCP, NTEP)
+  - Disease elimination programmes (Kala-azar, Filariasis, Malaria, TB)
   - Regulatory compliance (ICMR, CDSCO, DPDP Act)
-- **[AETCOM, NMC & NBEMS Integration](docs/AETCOM_NMC_INTEGRATION.md)** (30 KB) - Medical education & govt schemes ⭐ UPDATED
+- **[AETCOM, NMC & NBEMS Integration](docs/AETCOM_NMC_INTEGRATION.md)** (34 KB) - Medical education & govt schemes ⭐ UPDATED
   - AETCOM module integration (Ethics, Communication, Attitude)
   - NMC competency framework (K/KH/S/D progression)
   - NBEMS postgraduate training (DNB/DrNB/FNB, CanMEDS framework)
-  - Indian Government Healthcare Schemes (PMJAY, ABDM, NHM, e-Sanjeevani, Jan Aushadhi)
+  - **Indian Government Healthcare Schemes:** PMJAY, ABDM, NHM, e-Sanjeevani, Jan Aushadhi (8 central schemes)
+  - **State Health Insurance Schemes:** 12 major schemes (Maharashtra, Tamil Nadu, Karnataka, AP/Telangana, Rajasthan, Kerala, West Bengal, Delhi, Gujarat, Odisha, Chhattisgarh, Punjab)
   - Education mode features for MBBS students and residents
   - Ethical AI in medical education and public healthcare
 

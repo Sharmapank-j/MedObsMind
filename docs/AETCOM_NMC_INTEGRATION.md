@@ -1390,6 +1390,359 @@ Documentation → Claims Support → Quality Reporting
 
 ---
 
+## 11. State Government Health Insurance Schemes
+
+### Aligning with State-Level Healthcare Initiatives
+
+In addition to central government schemes (PMJAY, ABDM, NHM), MedObsMind integrates with major state health insurance schemes to ensure comprehensive coverage across India.
+
+---
+
+### Why State Schemes Matter
+
+**Diversity of Healthcare:**
+- Each state has unique health challenges
+- State schemes often provide additional benefits beyond PMJAY
+- Some states have universal coverage (not just BPL)
+- Integration ensures no patient falls through gaps
+
+**Benefits:**
+- Increased coverage amounts (state + central)
+- State-specific procedures and treatments
+- Better access in rural areas
+- Cashless treatment at more hospitals
+
+---
+
+### Major State Health Insurance Schemes
+
+#### 1. Maharashtra - Mahatma Jyotirao Phule Jan Arogya Yojana (MJPJAY)
+
+**Coverage:**
+- 2.5 crore families (all yellow and orange ration card holders)
+- ₹1.5 lakh per family per year
+- Additional ₹5 lakh through PMJAY convergence
+
+**Unique Features:**
+- Pre-existing diseases covered from day one
+- Free follow-up for 15 days post-discharge
+- Cashless treatment at 1,300+ empaneled hospitals
+- E-cards for easy identification
+
+**MedObsMind Integration:**
+- Verify MJPJAY eligibility in patient dashboard
+- Suggest MJPJAY + PMJAY combined coverage strategies
+- Document for both scheme claims
+- Maharashtra-specific treatment protocols
+
+---
+
+#### 2. Tamil Nadu - Chief Minister's Comprehensive Health Insurance Scheme (CMCHIS)
+
+**Coverage:**
+- 1.1 crore families
+- ₹5 lakh per family per year
+- 975+ medical and surgical procedures
+
+**Unique Features:**
+- Includes outpatient procedures
+- Palliative care coverage
+- Follow-up treatment included
+- No restrictions on pre-existing diseases
+
+**MedObsMind Integration:**
+- Tamil Nadu-specific procedure codes
+- Integration with TN health department systems
+- Regional language support (Tamil)
+- State protocol adherence
+
+---
+
+#### 3. Karnataka - Suvarna Arogya Suraksha Trust (SAST)
+
+**Coverage:**
+- BPL families
+- ₹1.5 lakh per family per year
+- Tertiary care focus
+
+**Unique Features:**
+- Cancer treatment packages
+- Organ transplant coverage
+- Renal dialysis support
+- Cardiac procedures
+
+**MedObsMind Integration:**
+- SAST + PMJAY combined tracking
+- Karnataka-specific high-cost procedures
+- Regional hospital empanelment status
+- Kannada language support
+
+---
+
+#### 4. Andhra Pradesh / Telangana - Aarogyasri
+
+**Coverage:**
+- BPL families in both states
+- ₹5 lakh (AP), ₹5 lakh (Telangana)
+- Pioneer scheme started in 2007
+
+**Unique Features:**
+- Telemedicine network
+- Emergency transportation (108 ambulance integration)
+- Health camps in rural areas
+- Pre-authorization through online system
+
+**MedObsMind Integration:**
+- Dual-state scheme coordination
+- Telemedicine platform integration
+- 108 ambulance data exchange
+- Telugu language support
+
+---
+
+#### 5. Rajasthan - Bhamashah Swasthya Bima Yojana (BSBY)
+
+**Coverage:**
+- 1.1 crore families
+- ₹3-5 lakh per family per year
+- Now merged with PMJAY as Ayushman Bharat-BSBY
+
+**Unique Features:**
+- Universal coverage for all families
+- Free medicines for chronic diseases
+- Cashless treatment
+- Bhamashah health insurance card
+
+**MedObsMind Integration:**
+- Bhamashah card integration
+- Rajasthan health system connectivity
+- Hindi language interface
+- Desert region health challenges awareness
+
+---
+
+#### 6. Kerala - Karunya Health Scheme
+
+**Coverage:**
+- BPL families
+- ₹2 lakh for specified diseases
+- Focus on critical/rare diseases
+
+**Unique Features:**
+- High-cost rare disease treatment
+- Palliative care support
+- Cancer treatment
+- Cardiac procedures
+
+**MedObsMind Integration:**
+- Kerala-specific disease protocols
+- Rare disease treatment pathways
+- Malayalam language support
+- Monsoon disease awareness (leptospirosis)
+
+---
+
+#### 7. West Bengal - Swasthya Sathi
+
+**Coverage:**
+- 7.5 crore beneficiaries (universal coverage)
+- ₹5 lakh per family per year
+- Basic healthcare + secondary + tertiary
+
+**Unique Features:**
+- One of the largest state schemes
+- Cashless treatment at government and private hospitals
+- Includes basic OPD services
+- No age limit
+
+**MedObsMind Integration:**
+- West Bengal health system connectivity
+- Bengali language support
+- Urban and rural hospital coordination
+- Cholera/dengue endemic awareness
+
+---
+
+#### 8. Delhi - Delhi Arogya Kosh
+
+**Coverage:**
+- Families with annual income below ₹5 lakh
+- Variable coverage by procedure
+- Free treatment at government hospitals
+
+**Unique Features:**
+- Means-tested (income-based, not just BPL)
+- Includes diagnostics and medicines
+- Focus on tertiary care
+- Delhi government hospital network
+
+**MedObsMind Integration:**
+- Delhi health department integration
+- Income verification support
+- Urban health challenges (air pollution, dengue)
+- Hindi/English bilingual support
+
+---
+
+#### 9. Gujarat - Mukhyamantri Amrutum (MA) Yojana
+
+**Coverage:**
+- BPL families
+- ₹3 lakh per family per year
+- Secondary and tertiary care
+
+**Unique Features:**
+- Cashless treatment at empaneled hospitals
+- Includes consultation, diagnosis, treatment
+- Accommodation for patient attendant
+- Emergency ambulance services
+
+**MedObsMind Integration:**
+- MA card verification
+- Gujarat hospital network coordination
+- Gujarati language support
+- Heat stroke awareness (summer months)
+
+---
+
+#### 10. Odisha - Biju Swasthya Kalyan Yojana (BSKY)
+
+**Coverage:**
+- 70 lakh families
+- ₹5 lakh (general), ₹10 lakh (women) per year
+- All residents of Odisha
+
+**Unique Features:**
+- Higher coverage for women beneficiaries
+- Includes maternity benefits
+- Free treatment for common ailments
+- Empaneled hospitals across state
+
+**MedObsMind Integration:**
+- Gender-specific coverage tracking
+- Malaria endemic zone awareness (Odisha high burden)
+- Odia language support
+- Tribal health considerations
+
+---
+
+#### 11. Chhattisgarh - Mukhyamantri Swasthya Bima Yojana
+
+**Coverage:**
+- All BPL and NFSA card holders
+- Merged with PMJAY
+- Comprehensive coverage
+
+**Unique Features:**
+- Focus on tribal population health
+- Naxal-affected area healthcare access
+- Mobile health units
+- Traditional medicine integration awareness
+
+**MedObsMind Integration:**
+- Tribal health considerations
+- Malaria high-burden zone protocols
+- Hindi language interface
+- Remote area connectivity challenges
+
+---
+
+#### 12. Punjab - Sarbat Sehat Bima Yojana
+
+**Coverage:**
+- All residents of Punjab (universal)
+- ₹5 lakh per family per year
+- Not limited to BPL
+
+**Unique Features:**
+- True universal health coverage
+- No income or caste restrictions
+- Cashless treatment
+- Comprehensive procedure coverage
+
+**MedObsMind Integration:**
+- Universal coverage verification
+- Punjabi language support
+- Drug abuse health impact awareness
+- Agricultural worker health issues
+
+---
+
+### MedObsMind State Scheme Integration Features
+
+#### 1. Multi-Scheme Patient Dashboard
+
+```
+Patient: Ram Kumar
+Location: Pune, Maharashtra
+Schemes Eligible:
+  ✓ PMJAY (₹5 lakh) - Active
+  ✓ MJPJAY (₹1.5 lakh) - Active
+  Total Coverage: ₹6.5 lakh
+
+Current Hospitalization: ₹2.8 lakh
+Remaining: ₹3.7 lakh (PMJAY: ₹2.2L, MJPJAY: ₹1.5L)
+```
+
+#### 2. State-Specific Treatment Protocols
+
+- Maharashtra: Dengue management (urban epidemic protocol)
+- Kerala: Leptospirosis treatment (monsoon season)
+- Odisha: Malaria high-burden treatment guidelines
+- Rajasthan: Fluorosis management
+- Northeast: Japanese encephalitis protocols
+
+#### 3. Cross-State Referral Coordination
+
+**Example:**
+```
+Patient from Bihar (Kala-azar treatment)
+→ Referred to AIIMS Delhi for complications
+→ PMJAY covers treatment in Delhi
+→ Return arrangement coordinated
+```
+
+#### 4. Scheme-Aware Cost Optimization
+
+```python
+# Pseudo-code for scheme-aware recommendations
+if patient.schemes.includes("PMJAY + State Scheme"):
+    treatment_options = [
+        {"procedure": "Angioplasty", "cost": "₹2.5 lakh", "covered": "Full (PMJAY)"},
+        {"alternative": "CABG", "cost": "₹4 lakh", "covered": "Full (PMJAY + State)"}
+    ]
+    recommend_best_clinical_outcome_within_coverage()
+```
+
+#### 5. Automated Documentation for Claims
+
+- Generate discharge summaries per scheme requirements
+- Procedure coding (ICD-10 + state-specific codes)
+- Pre-authorization documentation
+- Claims submission support
+- Follow-up documentation
+
+---
+
+### Ethical Considerations in Multi-Scheme Environment
+
+**Equal Treatment:**
+- PMJAY, state scheme, or private insurance → same quality care
+- Clinical decisions not influenced by payment source
+- Transparent communication about coverage
+
+**Optimal Scheme Utilization:**
+- Educate patients about available schemes
+- Help maximize coverage (combined schemes)
+- No hidden charges or out-of-pocket surprises
+
+**Documentation Integrity:**
+- Accurate reporting for all schemes
+- No up-coding or false claims
+- Ethical billing practices
+
+---
+
 ## 12. Conclusion
 
 ### MedObsMind: Where Clinical AI Meets Medical Education & National Health

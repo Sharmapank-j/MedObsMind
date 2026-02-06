@@ -443,6 +443,538 @@ if hospital_location in SCRUB_TYPHUS_ZONES:
 
 ---
 
+## 7A. Geographic & Endemic Disease Patterns - Comprehensive Mapping
+
+### Understanding India's Disease Geography
+
+India's vast geographic and climatic diversity creates distinct disease patterns. MedObsMind integrates region-specific, season-specific, and climate-specific disease intelligence for accurate clinical decision support.
+
+---
+
+### A. Region-Wise Endemic Diseases
+
+#### 1. Northeast India (Assam, Meghalaya, Tripura, Mizoram, Manipur, Nagaland, Arunachal Pradesh)
+
+**Climate:** Tropical humid, heavy rainfall, hilly terrain
+
+**Endemic Diseases:**
+
+**Malaria** (P. falciparum predominant)
+- Transmission: Year-round, peak May-October
+- High-risk districts: Karbi Anglong, Dima Hasao (Assam), Cachar
+- Mortality risk: Cerebral malaria common
+- **Prevention:** ITNs (Insecticide-Treated Nets), IRS (Indoor Residual Spraying), prophylaxis for pregnant women
+- **MedObsMind Alert:** Fever + any neurological symptoms in endemic zone → immediate malaria testing
+
+**Japanese Encephalitis (JE)**
+- Vector: Culex mosquito (rice paddies, pig rearing areas)
+- Peak: June-October (monsoon breeding season)
+- High-risk: Children in rice-growing districts
+- **Prevention:** JE vaccination (part of UIP), vector control, pig management away from homes
+- **MedObsMind Alert:** Acute encephalitis syndrome in monsoon → JE high on differential
+
+**Scrub Typhus** (Orientia tsutsugamushi)
+- Habitat: Scrub vegetation, agricultural areas
+- Peak: October-December (harvest season)
+- Presentation: Fever, eschar (pathognomonic), thrombocytopenia
+- **Prevention:** Protective clothing during farming, insect repellent, awareness
+- **MedObsMind Alert:** Fever + eschar + thrombocytopenia in NE India → scrub typhus likely
+
+**Tuberculosis (TB)**
+- High prevalence due to geographic isolation, malnutrition, overcrowding
+- Drug-resistant TB (MDR-TB) concern in urban areas
+- **Prevention:** BCG vaccination, early diagnosis, DOTS adherence
+- **MedObsMind:** TB screening for chronic cough >2 weeks in high-prevalence zones
+
+---
+
+#### 2. Eastern India (Bihar, Jharkhand, West Bengal, Odisha)
+
+**Climate:** Tropical, Gangetic plains, coastal areas, high humidity
+
+**Endemic Diseases:**
+
+**Kala-azar / Visceral Leishmaniasis**
+- Endemic zones: 54 districts in Bihar, Jharkhand, UP, West Bengal
+- Vector: Sandfly (Phlebotomus argentipes)
+- Mortality: 95% if untreated
+- Elimination target: 2023 (ongoing national program)
+- **Prevention:** IRS (Indoor Residual Spraying), bed nets, early case detection, treatment with miltefosine/liposomal amphotericin B
+- **MedObsMind Alert:** Prolonged fever (>2 weeks) + splenomegaly + Bihar/Jharkhand location → kala-azar priority test (rK39)
+
+**Acute Encephalitis Syndrome (AES) / Japanese Encephalitis**
+- High burden: Eastern UP, Bihar (Gorakhpur, Muzaffarpur districts)
+- Peak: May-July (pre-monsoon, early monsoon)
+- Children most affected
+- Litchi toxin (hypoglycin) also causes AES in Muzaffarpur
+- **Prevention:** JE vaccination, litchi consumption awareness, prompt glucose in hypoglycemia
+- **MedObsMind Alert:** AES in May-July Bihar → JE + hypoglycemia (litchi toxin) both considered
+
+**Cholera**
+- Endemic: West Bengal (Gangetic delta), Bihar
+- Outbreaks: Monsoon, floods, contaminated water sources
+- **Prevention:** Safe drinking water, sanitation, ORS availability, cholera vaccination in high-risk areas
+- **MedObsMind Alert:** Severe watery diarrhea + dehydration in monsoon West Bengal → cholera consider, immediate rehydration
+
+**Malaria** (High Burden States)
+- Odisha: Highest burden state (30-40% of India's cases)
+- Jharkhand, Chhattisgarh: Forest/tribal areas
+- **Prevention:** ITNs, IRS, early diagnosis and treatment with ACT (Artemisinin Combination Therapy)
+- **MedObsMind:** Fever in Odisha/Jharkhand → malaria high priority test
+
+**Filariasis (Lymphatic)**
+- Endemic: Odisha, Bihar, UP (coastal and riverine areas)
+- Vector: Culex mosquito
+- Chronic: Elephantiasis, hydrocele
+- **Prevention:** MDA (Mass Drug Administration - DEC + Albendazole), vector control
+- **MedObsMind:** Document filariasis status, avoid DEC in microfilaremia
+
+---
+
+#### 3. Northern India (Himachal Pradesh, Uttarakhand, J&K, Ladakh, Punjab, Haryana)
+
+**Climate:** Sub-tropical to alpine, Himalayan terrain
+
+**Endemic Diseases:**
+
+**High Altitude Illness**
+- Acute Mountain Sickness (AMS), HAPE, HACE
+- Risk: >8,000 feet (Leh-Ladakh, Kedarnath, Rohtang Pass)
+- Tourists, pilgrims, military personnel at risk
+- **Prevention:** Gradual ascent (300-500m/day above 3,000m), acetazolamide prophylaxis, immediate descent if symptoms
+- **MedObsMind Alert:** Headache + nausea + SOB in high altitude → AMS protocol, oxygen, descent
+
+**Goiter (Iodine Deficiency Disorders - IDD)**
+- Sub-Himalayan belt: Himachal Pradesh, Uttarakhand, J&K
+- Causes: Low iodine in soil/water
+- Manifestations: Goiter, hypothyroidism, cretinism
+- **Prevention:** Universal salt iodization (USI), monitoring, supplementation
+- **MedObsMind:** Screen for goiter in hilly regions, TSH monitoring
+
+**Scrub Typhus**
+- Hilly regions: Himachal Pradesh, Uttarakhand
+- Trekkers, agricultural workers
+- Peak: Monsoon and post-monsoon
+- **Prevention:** Protective clothing, insect repellent, awareness among trekking guides
+- **MedObsMind Alert:** Fever + eschar in hill stations → scrub typhus empiric doxycycline
+
+**Hepatitis E**
+- Waterborne, monsoon outbreaks
+- High mortality in pregnant women (20-30%)
+- **Prevention:** Safe drinking water, sanitation, boiling water
+- **MedObsMind Alert:** Jaundice in pregnant woman + rainy season → HEV priority, intensive monitoring
+
+---
+
+#### 4. Western India (Rajasthan, Gujarat, Maharashtra)
+
+**Climate:** Arid/semi-arid (Rajasthan, Gujarat), tropical (Maharashtra)
+
+**Endemic Diseases:**
+
+**Fluorosis (Dental & Skeletal)**
+- High fluoride in groundwater: Rajasthan, Gujarat, parts of Andhra Pradesh
+- Manifestations: Dental mottling, skeletal deformities, neurological issues
+- **Prevention:** Defluoridation of water, rainwater harvesting, alternative water sources (RO plants)
+- **MedObsMind:** Document water source, recommend defluoridation in high-fluoride districts
+
+**Heat Stroke & Heat-Related Illness**
+- Peak: March-June (pre-monsoon summer)
+- Temperature: 45-48°C common in Rajasthan, Gujarat
+- High risk: Outdoor workers, elderly, children, urban heat islands
+- **Prevention:** Hydration campaigns, heat action plans (Ahmedabad model), early warning systems, cooling centers
+- **MedObsMind Alert:** Core temp >40°C + altered sensorium + summer month → heat stroke, immediate cooling
+
+**Dengue & Chikungunya**
+- Urban epidemics: Mumbai, Pune, Ahmedabad, Nagpur
+- Peak: Monsoon + post-monsoon (July-November)
+- Aedes aegypti mosquito (day-biting)
+- **Prevention:** Source reduction (remove water storage), fogging, community participation, larval control
+- **MedObsMind Alert:** Fever + thrombocytopenia + July-Nov + urban → dengue NS1/IgM, daily platelet monitoring
+
+**Leptospirosis**
+- Maharashtra: Monsoon and flood-related (Mumbai, Pune during heavy rains)
+- Exposure: Sewage contact, agricultural work, rodent urine-contaminated water
+- **Prevention:** Protective gear (boots, gloves), doxycycline prophylaxis for high-risk groups, rodent control
+- **MedObsMind Alert:** Fever + jaundice + muscle pain + monsoon + sewage/flood exposure → leptospirosis, doxycycline/penicillin
+
+**Snake Bite** (Big Four: Cobra, Krait, Russell's viper, Saw-scaled viper)
+- Rural agricultural areas: Rajasthan, Gujarat, Maharashtra
+- Peak: Monsoon (snakes come out), agricultural season
+- **Prevention:** Awareness campaigns, protective footwear, torch at night, anti-venom availability at PHCs
+- **MedObsMind Alert:** Snake bite history → immediate 20-minute WBCT (bedside clotting test), polyvalent anti-venom ready
+
+---
+
+#### 5. Southern India (Karnataka, Tamil Nadu, Kerala, Andhra Pradesh, Telangana)
+
+**Climate:** Tropical, coastal regions, Western Ghats hills
+
+**Endemic Diseases:**
+
+**Dengue & Chikungunya**
+- Year-round transmission in coastal cities
+- Peaks: Monsoon (June-Sept) and post-monsoon (Oct-Nov)
+- High burden: Chennai, Bangalore, Hyderabad, Kochi, Mangalore
+- **Prevention:** Aedes control (source reduction), water storage management (tanks, pots), fogging during outbreaks
+- **MedObsMind Alert:** Year-round awareness in South India, platelet <1.5 lakh → daily monitoring, fluid management
+
+**Leptospirosis**
+- Kerala: Monsoon floods (August-October)
+- High-risk: Rice farmers, sewage workers, flood victims
+- **Prevention:** Doxycycline prophylaxis for high-risk during monsoon, protective gear, early treatment
+- **MedObsMind Alert:** Kerala + monsoon + fever + jaundice → leptospirosis high probability, start doxycycline
+
+**Scrub Typhus**
+- Hilly regions: Nilgiris (Tamil Nadu), Kodaikanal, Western Ghats (Kerala, Karnataka)
+- Agricultural workers, trekkers, tea estate workers
+- **Prevention:** Protective clothing, awareness, prompt treatment with doxycycline
+- **MedObsMind Alert:** Fever + eschar in hill stations (Ooty, Kodaikanal, Coorg) → scrub typhus
+
+**Japanese Encephalitis**
+- Rice-growing areas: Tamil Nadu (Thanjavur), Karnataka (coastal)
+- Children at risk
+- **Prevention:** JE vaccination (Universal Immunization Program), vector control, pig management
+- **MedObsMind:** Encephalitis in rice belt → JE protocol
+
+**Fluorosis**
+- Andhra Pradesh: High fluoride districts (Nalgonda, Prakasam, Krishna)
+- Skeletal fluorosis common in adults
+- **Prevention:** Defluoridation plants, community awareness, alternative water sources
+- **MedObsMind:** Document water source in Andhra Pradesh, recommend testing for fluorosis
+
+**Typhoid & Paratyphoid**
+- Urban areas: Contaminated food/water
+- Year-round, peak in summer (April-June)
+- **Prevention:** Safe food/water, hand hygiene, typhoid vaccination (especially for food handlers)
+- **MedObsMind Alert:** Prolonged fever + relative bradycardia → Widal/blood culture for enteric fever
+
+---
+
+#### 6. Central India (Madhya Pradesh, Chhattisgarh)
+
+**Climate:** Tropical, forest belts, tribal areas
+
+**Endemic Diseases:**
+
+**Malaria** (High Burden)
+- Forest/tribal districts: Chhattisgarh (Bastar, Dantewada), MP (Mandla, Dindori)
+- P. falciparum predominant (cerebral malaria risk)
+- **Prevention:** ITNs in tribal villages, IRS, early diagnosis with RDT, treatment with ACT
+- **MedObsMind Alert:** Fever in Central India forest belt → malaria urgent test
+
+**Tuberculosis**
+- High prevalence in mining communities (coal mines in Chhattisgarh)
+- Silicosis + TB co-infection
+- Drug-resistant TB concern
+- **Prevention:** BCG, active case finding in high-risk populations, DOTS adherence
+- **MedObsMind:** Chronic cough in mining worker → TB + silicosis screening
+
+---
+
+### B. Climate & Season-Based Disease Calendar
+
+**Monsoon Season (June-September):**
+- **Vector-Borne:** Malaria, Dengue, Chikungunya, Japanese Encephalitis
+- **Water-Borne:** Leptospirosis, Cholera, Typhoid, Hepatitis A & E
+- **Other:** Scrub typhus (late monsoon), Snakebites (flooding)
+- **MedObsMind:** High alert for these diseases in monsoon months
+
+**Post-Monsoon (October-November):**
+- **Vector-Borne:** Dengue peak (breeding complete), Japanese Encephalitis, Scrub typhus
+- **Water-Borne:** Continued vigilance (standing water)
+- **MedObsMind:** Thrombocytopenia in Oct-Nov → dengue high priority
+
+**Summer (March-June):**
+- **Heat-Related:** Heat stroke, heat exhaustion, acute kidney injury
+- **Food-Borne:** Food poisoning (bacterial growth), Typhoid
+- **Viral:** Chickenpox, Measles outbreaks
+- **MedObsMind:** Temperature monitoring, hydration status, food poisoning alerts
+
+**Winter (December-February):**
+- **Respiratory:** Pneumonia, Influenza, Bronchiolitis (RSV in children)
+- **Cardiovascular:** MI, stroke (cold stress increases BP)
+- **Other:** Hypothermia in northern regions
+- **MedObsMind:** Respiratory infection protocols, cardiac monitoring in cold stress
+
+---
+
+### C. MedObsMind Integration for Geographic Diseases
+
+#### 1. Location-Based Disease Awareness
+
+```python
+# Pseudo-code for geographic disease intelligence
+patient_location = "Karbi Anglong District, Assam"
+current_month = "August"
+current_season = "Monsoon"
+
+# Fetch high-risk diseases for this location + season
+endemic_diseases = get_endemic_diseases(patient_location, current_season)
+# Returns: ["Malaria (P. falciparum)", "Japanese Encephalitis", "Dengue", "Leptospirosis", "Scrub Typhus"]
+
+# If patient presents with fever
+if patient.symptoms.includes("fever"):
+    priority_tests = ["Malaria RDT/Smear (urgent)", "Dengue NS1", "CBC (platelets)", "Leptospirosis IgM"]
+    
+    if patient.symptoms.includes("eschar"):
+        top_diagnosis = "Scrub Typhus - Start Doxycycline empirically"
+```
+
+**Dashboard Display:**
+```
+🚨 ENDEMIC ZONE ALERT: Karbi Anglong, Assam
+📍 High-risk diseases (August):
+   1. Malaria (P. falciparum) - URGENT
+   2. Japanese Encephalitis - Children at risk
+   3. Dengue - Monsoon peak
+   4. Leptospirosis - Agricultural exposure
+   5. Scrub Typhus - Look for eschar
+```
+
+#### 2. Seasonal Disease Alerts
+
+**Automatic Seasonal Warnings:**
+- July (Monsoon Start): "Dengue, Malaria, Leptospirosis season. Stock adequate RDTs, anti-venom (snakes), doxycycline."
+- October (Post-Monsoon): "Dengue peak month. Daily platelet monitoring for all febrile patients."
+- March (Summer Start): "Heat stroke season. Ensure ORS, IV fluids stocked. Heat action plan activated."
+- December (Winter): "Pneumonia, Influenza season. Elderly at risk. Vaccination awareness."
+
+#### 3. Prevention Campaign Integration
+
+**Mass Drug Administration (MDA):**
+- Filariasis: DEC + Albendazole annual rounds (target 54 endemic districts)
+- **MedObsMind:** Track MDA compliance, alert for contraindications (pregnancy, microfilaremia)
+
+**Vaccination Drives:**
+- Japanese Encephalitis: Children 1-15 years in endemic zones
+- Cholera: High-risk areas during outbreaks
+- Typhoid: Food handlers, residents of high-incidence areas
+- **MedObsMind:** Vaccination status tracking, reminder alerts
+
+**Vector Control Monitoring:**
+- IRS (Indoor Residual Spraying) for malaria, kala-azar
+- Source reduction for dengue/chikungunya
+- **MedObsMind:** Track IRS dates, correlate with case reduction
+
+#### 4. Regional Protocol Variations
+
+**Malaria Treatment:**
+- Chloroquine-sensitive zones (rare now): Chloroquine + Primaquine
+- Chloroquine-resistant zones (most of India): ACT (Artemether-Lumefantrine or Artesunate-Sulfadoxine-Pyrimethamine)
+- **MedObsMind:** Auto-select protocol based on hospital location
+
+**Snake Bite Anti-Venom:**
+- Big Four (Cobra, Krait, Russell's, Saw-scaled): Polyvalent anti-venom
+- Region-specific: Hump-nosed viper (South India) may need monovalent
+- **MedObsMind:** Stock alerts based on regional snake prevalence
+
+**Fluorosis Management:**
+- High-fluoride districts: Recommend water source change, defluoridation
+- Skeletal fluorosis: Physiotherapy, calcium/vitamin D supplementation
+- **MedObsMind:** Screen patients in Rajasthan, AP for fluorosis
+
+---
+
+### D. Prevention Strategies by Disease Type
+
+#### Vector-Borne Diseases (Malaria, Dengue, JE, Chikungunya, Filariasis, Kala-azar)
+
+**Personal Protection:**
+- ITNs (Insecticide-Treated Nets) - especially for malaria, JE
+- Bed nets for kala-azar (sandfly protection)
+- Repellents (DEET-based) for Aedes mosquitoes
+- Protective clothing (long sleeves, pants) in endemic zones
+
+**Environmental Control:**
+- IRS (Indoor Residual Spraying) - malaria, kala-azar
+- Source reduction - remove stagnant water (dengue, chikungunya)
+- Larvicide application in water bodies
+- Fogging during outbreaks (adult mosquito control)
+
+**Chemoprophylaxis:**
+- Malaria: Doxycycline or mefloquine for travelers to endemic zones
+- Pregnant women in high-transmission areas: IPTp (Intermittent Preventive Treatment)
+
+**Vaccination:**
+- Japanese Encephalitis: Part of UIP (Universal Immunization Program)
+- Dengue vaccine: Under consideration (limited use)
+
+**MedObsMind Role:**
+- Alert clinicians in endemic seasons
+- Prophylaxis reminder for high-risk groups
+- Track vaccination coverage
+
+---
+
+#### Water-Borne Diseases (Cholera, Typhoid, Hepatitis A/E, Leptospirosis)
+
+**Safe Drinking Water:**
+- Boiling (most effective)
+- Filtration (ceramic, sand filters)
+- Chlorination (0.5 ppm residual chlorine)
+- RO plants for fluorosis-endemic areas
+
+**Sanitation:**
+- Toilets (Swachh Bharat Mission)
+- Proper sewage systems
+- Waste disposal management
+- Hand hygiene (soap + water)
+
+**Food Safety:**
+- Avoid street food in outbreaks
+- Wash fruits/vegetables
+- Cook food thoroughly
+- Safe food handlers (typhoid vaccination)
+
+**Vaccination:**
+- Cholera: Oral vaccine in high-risk areas during outbreaks
+- Typhoid: Vi polysaccharide or conjugate vaccine (food handlers, endemic areas)
+- Hepatitis A: Vaccine for travelers, high-risk groups
+
+**Chemoprophylaxis:**
+- Leptospirosis: Doxycycline 200mg weekly for high-risk during monsoon (Kerala model)
+
+**MedObsMind Role:**
+- Monsoon alerts for water-borne diseases
+- Prophylaxis tracking (leptospirosis in Kerala)
+- ORS availability reminders
+
+---
+
+#### Environmental/Geographic Diseases
+
+**Fluorosis:**
+- Defluoridation of water sources
+- Community awareness about high-fluoride zones
+- Alternative water sources (rainwater harvesting, piped water from low-fluoride sources)
+- **MedObsMind:** Water source documentation, recommend defluoridation in Rajasthan, AP, Gujarat
+
+**Goiter (Iodine Deficiency):**
+- Universal salt iodization (USI)
+- Monitoring iodine levels (urinary iodine)
+- Supplementation in severe deficiency areas
+- **MedObsMind:** Thyroid screening in Sub-Himalayan belt
+
+**High Altitude Illness:**
+- Gradual ascent (300-500m/day above 3,000m)
+- Acetazolamide prophylaxis (125-250mg BD starting day before ascent)
+- Immediate descent if symptoms occur
+- Oxygen, dexamethasone for HACE/HAPE
+- **MedObsMind:** Travel history alerts, high altitude protocol
+
+**Heat Stroke:**
+- Heat action plans (early warning systems)
+- Public awareness campaigns
+- Cooling centers in cities
+- Hydration campaigns (ORS distribution)
+- Occupational safety (rest breaks for outdoor workers)
+- **MedObsMind:** Temperature monitoring, heat stress alerts March-June
+
+---
+
+#### Zoonotic Diseases
+
+**Japanese Encephalitis (Pigs as amplifying hosts):**
+- Pig management away from human habitation
+- Vaccination of children
+- Vector control (Culex mosquitoes in rice paddies)
+
+**Leptospirosis (Rodents as reservoir):**
+- Rodent control (traps, rodenticides, proper waste management)
+- Avoid swimming/wading in potentially contaminated water
+- Protective gear for high-risk occupations (sewage workers, farmers)
+
+**Rabies (Dogs, bats, other mammals):**
+- Dog vaccination campaigns (Mission Rabies)
+- Post-exposure prophylaxis (PEP) availability
+- Awareness about rabid animal behavior
+- **MedObsMind:** Animal bite protocols, PEP scheduling
+
+---
+
+### E. Public Health Integration
+
+#### Disease Surveillance Systems
+
+**IDSP (Integrated Disease Surveillance Programme):**
+- Real-time disease surveillance
+- Outbreak detection and response
+- Weekly epidemiological reports
+- **MedObsMind Integration:** Auto-report notifiable diseases (cholera, dengue, JE, malaria, etc.)
+
+**NVBDCP (National Vector Borne Disease Control Programme):**
+- Malaria, Dengue, Chikungunya, JE, Filariasis, Kala-azar control
+- **MedObsMind:** Share anonymized case data for surveillance, track control measures
+
+**NTEP (National TB Elimination Programme):**
+- TB case notification
+- Treatment adherence tracking (DOTS)
+- **MedObsMind:** TB case reporting, DOTS adherence reminders
+
+#### Elimination Programmes
+
+**Kala-azar Elimination (Target: <1 case per 10,000 population at block level):**
+- Early case detection and treatment
+- IRS in endemic villages
+- Vector control
+- **MedObsMind:** Kala-azar case tracking in 54 endemic districts, treatment adherence
+
+**Filariasis Elimination (MDA Rounds):**
+- Annual MDA with DEC + Albendazole
+- **MedObsMind:** MDA compliance tracking, contraindication alerts
+
+**Malaria Elimination (Target: 2030):**
+- Case detection and treatment
+- ITNs distribution
+- IRS in high-burden areas
+- **MedObsMind:** Malaria case tracking, treatment protocol adherence
+
+---
+
+### F. Climate Change Impact on Disease Patterns
+
+**Emerging Concerns:**
+
+1. **Geographic Expansion:** Malaria, dengue spreading to previously non-endemic areas (higher altitudes, new states)
+2. **Season Extension:** Longer transmission seasons due to warmer temperatures
+3. **Intensity Increase:** More severe outbreaks, higher case counts
+4. **New Diseases:** Zika (detected in India 2017-2018), potential for other arboviruses
+
+**MedObsMind Adaptive Intelligence:**
+- Machine learning to detect changing disease patterns
+- Alert for cases in "newly endemic" zones
+- Predict outbreak risks based on climate data (rainfall, temperature)
+
+---
+
+### G. Summary: MedObsMind Geographic Disease Intelligence
+
+**Key Features:**
+
+1. ✅ **20+ Endemic Diseases Mapped** by region, season, climate
+2. ✅ **6 Geographic Regions** with distinct disease profiles
+3. ✅ **4 Seasonal Patterns** (Monsoon, Post-monsoon, Summer, Winter)
+4. ✅ **Location-Based Alerts** (automatic differential diagnosis adjustment)
+5. ✅ **Prevention Strategy Guidance** for each disease type
+6. ✅ **Public Health Integration** (IDSP, NVBDCP, NTEP reporting)
+7. ✅ **Elimination Programme Support** (Kala-azar, Filariasis, Malaria, TB)
+8. ✅ **Climate Change Monitoring** (emerging disease patterns)
+
+**Clinical Impact:**
+
+- **Early Diagnosis:** Region + season-aware differential diagnosis (e.g., kala-azar in Bihar fever vs typhoid in Delhi fever)
+- **Appropriate Testing:** Auto-suggest relevant tests (scrub typhus Weil-Felix in hill stations)
+- **Timely Treatment:** Empiric therapy guidelines per region (ACT for malaria in Odisha)
+- **Prevention:** Prophylaxis reminders (leptospirosis doxycycline in Kerala monsoon)
+- **Public Health:** Disease surveillance, outbreak detection, elimination programme tracking
+
+**Unique Value:**
+
+> "MedObsMind is the only clinical AI that understands that a fever in Bihar could be kala-azar, a fever in Kerala in August is likely leptospirosis, a fever with eschar in Nilgiris is scrub typhus, and a fever with altered sensorium in Gorakhpur in June needs urgent JE protocol. This is India-specific intelligence, not Western AI adapted."
+
+---
+
 ## 8. Regulatory & Guidelines Compliance
 
 ### Indian Medical Guidelines
