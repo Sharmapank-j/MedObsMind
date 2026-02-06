@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.MedObsMind" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/teal_primary</item>
+        <item name="colorPrimaryVariant">@color/teal_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/teal_light</item>
+        <item name="colorSecondaryVariant">@color/teal_primary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+        <!-- Customize your theme here -->
+        <item name="android:windowBackground">@color/background_gradient</item>
+    </style>
+    
+    <!-- Splash screen theme -->
+    <style name="Theme.MedObsMind.Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:statusBarColor">@color/teal_primary</item>
+    </style>
+    
+    <!-- Button styles -->
+    <style name="Widget.MedObsMind.Button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">16dp</item>
+        <item name="backgroundTint">@color/teal_primary</item>
+    </style>
+    
+    <!-- Card styles -->
+    <style name="Widget.MedObsMind.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">8dp</item>
+    </style>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MedObsMind Brand Colors -->
+    <color name="teal_primary">#2a9d8f</color>
+    <color name="teal_dark">#1a7d6f</color>
+    <color name="teal_light">#4db8a9</color>
+    
+    <!-- Background Colors -->
+    <color name="background_gradient">#e6f7ff</color>
+    <color name="background_gradient_end">#f0f9ff</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#264653</color>
+    <color name="text_secondary">#666666</color>
+    <color name="text_light">#999999</color>
+    
+    <!-- Common Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    
+    <!-- Accent Colors -->
+    <color name="accent_coral">#e76f51</color>
+    
+    <!-- Status Colors -->
+    <color name="success">#4caf50</color>
+    <color name="error">#f44336</color>
+    <color name="warning">#ff9800</color>
+    <color name="info">#2196f3</color>
+</resources>
