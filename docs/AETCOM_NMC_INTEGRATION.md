@@ -1,8 +1,8 @@
-# AETCOM & NMC Integration - MedObsMind
+# AETCOM, NMC & NBEMS Integration - MedObsMind
 
 ## Aligning with Indian Medical Education Standards
 
-**Purpose:** This document details how MedObsMind integrates with AETCOM (Attitude, Ethics, and Communication) competency module and NMC (National Medical Commission) guidelines to provide education-aligned clinical AI for Indian medical students and professionals.
+**Purpose:** This document details how MedObsMind integrates with AETCOM (Attitude, Ethics, and Communication) competency module, NMC (National Medical Commission) guidelines, and NBEMS (National Board of Examinations in Medical Sciences) standards to provide education-aligned clinical AI for Indian medical students and professionals at all levels.
 
 ---
 
@@ -108,7 +108,113 @@ To develop medical professionals who are:
 
 ---
 
-## 3. MedObsMind Integration with AETCOM/NMC
+## 3. National Board of Examinations in Medical Sciences (NBEMS)
+
+### About NBEMS
+
+**National Board of Examinations in Medical Sciences** is an autonomous organization under the Ministry of Health & Family Welfare, Government of India.
+
+**Established:** 1975 (as NBE), reconstituted as NBEMS in 2020
+
+**Key Responsibilities:**
+1. Conduct postgraduate medical examinations (DNB, DrNB, FNB)
+2. Accredit hospitals for postgraduate training
+3. Set curriculum standards for specialty training
+4. Maintain registry of board-certified specialists
+5. Ensure quality of postgraduate medical education
+6. Grant NBE degrees and fellowships
+
+### NBEMS Qualifications
+
+#### **DNB (Diplomate of National Board)**
+- Equivalent to MD/MS degrees
+- 3-year residency in accredited hospitals
+- Broad specialties: Medicine, Surgery, Pediatrics, etc.
+- Recognition: Equal to university MD/MS for teaching/practice
+
+#### **DrNB (Doctor of National Board)**
+- Super-specialty training (3 years after DNB/MD/MS)
+- Advanced specializations: Cardiology, Neurology, Nephrology, etc.
+- Equivalent to DM/MCh degrees
+- Critical care, interventional specialties
+
+#### **FNB (Fellowship of National Board)**
+- Short-duration specialized training (1-2 years)
+- Niche areas: ICU, Emergency Medicine, Palliative Care, etc.
+- Skill enhancement and sub-specialization
+- Growing importance in Indian healthcare
+
+### NBEMS Examination Pattern
+
+#### **DNB Final Examination**
+**Theory (Written):**
+- 4 papers (3 hours each)
+- Case-based scenarios
+- Long questions, short notes, MCQs
+- Emphasis on clinical reasoning
+
+**Practical:**
+- Clinical examination (long case, short cases)
+- OSCE (Objective Structured Clinical Examination)
+- Viva voce (oral examination)
+- Communication and professionalism assessment
+
+**Continuous Assessment:**
+- Logbook maintenance
+- Case presentations
+- Research projects
+- Workplace-based assessments
+
+### NBEMS Competency Framework
+
+#### **CanMEDS Framework Adaptation**
+
+NBEMS follows CanMEDS (Canadian Medical Education Directives for Specialists) roles:
+
+1. **Medical Expert** (Central role)
+   - Clinical decision-making
+   - Procedural skills
+   - Patient management
+
+2. **Communicator**
+   - Patient-doctor communication
+   - Breaking bad news
+   - Informed consent
+   - Interdisciplinary communication
+
+3. **Collaborator**
+   - Team-based care
+   - Multidisciplinary rounds
+   - Referral and consultation
+   - Leadership skills
+
+4. **Leader/Manager**
+   - Resource allocation
+   - Workflow management
+   - Quality improvement
+   - Healthcare delivery
+
+5. **Health Advocate**
+   - Patient advocacy
+   - Community health
+   - Social determinants
+   - Public health
+
+6. **Scholar**
+   - Lifelong learning
+   - Evidence-based medicine
+   - Research skills
+   - Teaching abilities
+
+7. **Professional**
+   - Ethics and integrity
+   - Accountability
+   - Professional conduct
+   - Self-regulation
+
+---
+
+## 4. MedObsMind Integration with AETCOM/NMC/NBEMS
 
 ### How MedObsMind Supports AETCOM Learning
 
@@ -201,9 +307,107 @@ NMC_COMPETENCIES = {
 - Communication skills assessment
 - Reflective writing submissions
 
+#### **D. NBEMS Integration for Postgraduate Training**
+
+**For DNB/DrNB/FNB Residents:**
+
+MedObsMind supports postgraduate medical education aligned with NBEMS standards.
+
+**1. CanMEDS Role-Based Learning**
+
+```
+CanMEDS Role      → MedObsMind Feature           → NBEMS Competency
+──────────────────────────────────────────────────────────────────────
+Medical Expert    → Complex ICU case management  → Clinical decision-making
+                  → Multi-organ failure cases    → Comprehensive care
+
+Communicator      → Family conference sims       → Breaking bad news
+                  → Interdisciplinary rounds     → Team communication
+
+Collaborator      → Multi-specialty consults    → Teamwork
+                  → ICU handover practice        → Care coordination
+
+Leader/Manager    → Resource allocation          → Healthcare management
+                  → ICU bed management           → Workflow optimization
+
+Health Advocate   → Social determinants cases   → Patient advocacy
+                  → Public health scenarios     → Community impact
+
+Scholar           → Evidence-based cases        → Literature integration
+                  → Research case studies       → Critical appraisal
+
+Professional      → Ethics dilemmas             → Professional conduct
+                  → Conflict resolution         → Accountability
+```
+
+**2. DNB Examination Preparation**
+
+**Theory Paper Practice:**
+- Long question formats (10-20 marks)
+- Short notes (5 marks)
+- MCQ with clinical vignettes
+- Case-based scenarios
+- Differential diagnosis practice
+
+**Clinical Skills:**
+- Long case presentation (structured)
+- Short case examination techniques
+- OSCE stations (simulated)
+- Viva preparation with AI interviewer
+- Communication assessment
+
+**3. Logbook Integration**
+
+**Digital Logbook Features:**
+- Case documentation (anonymized)
+- Procedure tracking
+- Competency checkpoints
+- Supervisor feedback integration
+- Research project tracking
+- CME credit logging
+
+**4. Workplace-Based Assessments (WBA)**
+
+**NBEMS-Aligned Assessments:**
+- Mini-CEX (Mini Clinical Evaluation Exercise)
+- CBD (Case-Based Discussion)
+- DOPS (Direct Observation of Procedural Skills)
+- MSF (Multi-Source Feedback)
+- Audit projects
+
+**MedObsMind Support:**
+- Structured assessment templates
+- Performance tracking
+- Gap analysis
+- Remediation suggestions
+- Portfolio compilation
+
+**5. Specialty-Specific Training**
+
+**ICU/Critical Care (FNB):**
+- Ventilator management cases
+- Shock recognition and management
+- Sepsis bundles
+- Hemodynamic monitoring
+- Multi-organ support
+
+**Emergency Medicine (DNB/FNB):**
+- Triage simulations
+- Trauma cases
+- Cardiac emergencies
+- Toxicology scenarios
+- Disaster management
+
+**Internal Medicine (DNB):**
+- Complex medical cases
+- Chronic disease management
+- Geriatric scenarios
+- Diagnostic reasoning
+- Evidence-based treatment
+
 ---
 
-## 4. Indian Healthcare Context in AETCOM
+## 5. Indian Healthcare Context in AETCOM/NBEMS
 
 ### Unique Indian Considerations
 
@@ -510,11 +714,49 @@ Key principles MedObsMind reinforces:
 4. Ethical obligations
 5. Patient rights and autonomy
 
+### NBEMS Standards Adherence
+
+#### **A. Postgraduate Medical Education Standards**
+
+**MedObsMind Compliance:**
+- Supports DNB/DrNB/FNB curriculum requirements
+- CanMEDS framework integration
+- Clinical competency assessment
+- Workplace-based assessment tools
+- Digital logbook maintenance
+
+#### **B. Examination Preparation**
+
+**NBEMS Exam Pattern Support:**
+- Theory paper practice (long questions, short notes, MCQs)
+- Clinical examination simulation
+- OSCE station practice
+- Viva preparation with AI
+- Case-based scenario training
+
+#### **C. Hospital Accreditation Support**
+
+**For NBEMS-Accredited Training Centers:**
+- Standardized resident education
+- Competency tracking and documentation
+- Quality improvement metrics
+- Assessment tool repository
+- Research project support
+
+#### **D. Continuous Professional Development**
+
+**CME and Skill Enhancement:**
+- FNB-aligned skill modules
+- Specialty-specific training
+- Evidence-based updates
+- Procedural skill reinforcement
+- Quality improvement projects
+
 ### DPDP Act 2023 Compliance
 
 **Digital Personal Data Protection Act:**
 
-**Student Data Protection:**
+**Student/Resident Data Protection:**
 - Explicit consent for data collection
 - Purpose limitation
 - Data minimization
@@ -532,9 +774,9 @@ Key principles MedObsMind reinforces:
 
 ---
 
-## 8. Benefits of AETCOM/NMC Integration
+## 8. Benefits of AETCOM/NMC/NBEMS Integration
 
-### For Medical Students
+### For Medical Students (MBBS)
 
 1. **Curriculum Alignment:** Directly supports MBBS AETCOM requirements
 2. **Competency Development:** Structured progression tracking (K → KH → S → D)
@@ -544,6 +786,17 @@ Key principles MedObsMind reinforces:
 6. **Exam Preparation:** NEET PG ethics scenario practice
 7. **Self-Paced Learning:** Anytime, anywhere access
 8. **Real-World Context:** Indian healthcare scenarios
+
+### For Postgraduate Residents (DNB/DrNB/FNB)
+
+1. **CanMEDS Role Development:** All 7 roles systematically covered
+2. **Clinical Excellence:** Complex case exposure and management
+3. **Examination Success:** DNB theory and practical preparation
+4. **Logbook Management:** Digital documentation and tracking
+5. **Workplace Assessments:** Structured feedback and improvement
+6. **Research Skills:** Case documentation and analysis
+7. **Specialty Training:** ICU, Emergency, Internal Medicine focus
+8. **CME Credits:** Continuous learning and certification
 
 ### For Medical Colleges
 
@@ -654,70 +907,545 @@ The new patient's son is willing to pay for private ICU but no beds available. T
 
 ---
 
-## 10. Future Vision
+## 10. Indian Government Healthcare Schemes Integration
 
-### Long-Term AETCOM/NMC Integration
+### Aligning with National Health Initiatives
+
+MedObsMind supports and integrates with major Indian government healthcare schemes to ensure accessibility, affordability, and alignment with national health priorities.
+
+---
+
+### A. Ayushman Bharat (Pradhan Mantri Jan Arogya Yojana - PMJAY)
+
+**About:**
+- World's largest health assurance scheme
+- Launched: September 23, 2018
+- Coverage: 50 crore (500 million) beneficiaries
+- Cover amount: ₹5 lakh per family per year
+- Focus: Secondary and tertiary care hospitalization
+
+**MedObsMind Integration:**
+
+1. **Patient Identification & Eligibility**
+   - Integration with PMJAY beneficiary database
+   - Automatic scheme status display in patient dashboard
+   - Treatment package mapping
+   - Pre-authorization support
+
+2. **Clinical Decision Support for PMJAY Patients**
+   - Cost-conscious recommendations
+   - Package-based treatment protocols
+   - Generic medication preferences
+   - Resource optimization for covered procedures
+
+3. **Quality Monitoring**
+   - Treatment outcome tracking for PMJAY cases
+   - Complication monitoring and reporting
+   - Readmission rate analysis
+   - Quality metrics for empaneled hospitals
+
+4. **Documentation & Claims**
+   - Automated clinical documentation
+   - Treatment summary generation
+   - Discharge planning
+   - Claims documentation support
+
+**Ethics Scenario:**
+```
+Case: PMJAY patient vs. Private patient - Resource Allocation
+- Equal clinical priority regardless of payment status
+- Ayushman Bharat patients have same rights
+- No preferential treatment based on payment capacity
+- Ethical framework: Justice and equity in healthcare
+```
+
+---
+
+### B. Ayushman Bharat Digital Mission (ABDM)
+
+**About:**
+- Launched: September 27, 2021
+- Digital health infrastructure for India
+- Components: Health ID, DigiDoctor, Health Facility Registry
+- Unified health interface (UHI)
+- Electronic Medical Records (EMR)
+
+**MedObsMind Integration:**
+
+1. **Ayushman Bharat Health Account (ABHA) Integration**
+   - ABHA number linking for patient identification
+   - Unique 14-digit health ID support
+   - Consent-based health record access
+   - Interoperability with ABDM ecosystem
+
+2. **Health Data Exchange**
+   - FHIR (Fast Healthcare Interoperability Resources) compliance
+   - Standardized data formats
+   - Secure health information exchange
+   - Patient consent management
+
+3. **DigiDoctor Registration**
+   - Doctor registration with DigiDoctor
+   - Healthcare Professional Registry (HPR) integration
+   - Digital signature for prescriptions
+   - Telemedicine compliance
+
+4. **Health Facility Registry**
+   - Hospital registration in HFR
+   - Facility services catalogue
+   - Real-time bed availability updates
+   - ICU capacity reporting
+
+**Technical Specifications:**
+```python
+ABDM_INTEGRATION = {
+    "abha_number": "14-digit unique health ID",
+    "health_data_standards": "FHIR R4",
+    "consent_framework": "Electronic consent artifacts",
+    "security": "SSL/TLS encryption, digital signatures",
+    "authentication": "ABHA OTP-based verification"
+}
+```
+
+---
+
+### C. National Health Mission (NHM)
+
+**About:**
+- Comprehensive primary healthcare
+- Sub-missions: NRHM (Rural), NUHM (Urban)
+- Focus: Maternal health, child health, communicable diseases
+- Infrastructure development
+- Human resources strengthening
+
+**MedObsMind Support:**
+
+1. **Primary Healthcare Centre (PHC) Integration**
+   - Referral decision support (when to refer to tertiary)
+   - Teleconsultation support for rural PHCs
+   - Protocol compliance for NHM programs
+   - Training for ANM (Auxiliary Nurse Midwife)
+
+2. **Maternal & Child Health**
+   - Pregnancy risk stratification
+   - Newborn monitoring protocols
+   - Immunization schedule tracking
+   - JSSK (Janani Shishu Suraksha Karyakram) support
+
+3. **Communicable Disease Management**
+   - TB (Tuberculosis) case management
+   - Malaria surveillance
+   - Dengue monitoring during outbreaks
+   - COVID-19 protocols
+
+4. **Data Reporting**
+   - HMIS (Health Management Information System) integration
+   - District health reporting
+   - Performance indicators tracking
+   - Program monitoring
+
+---
+
+### D. Pradhan Mantri Swasthya Suraksha Yojana (PMSSY)
+
+**About:**
+- Upgrade existing medical education institutions
+- Set up AIIMS-like institutions
+- Correct regional imbalance in medical education
+- Increase MBBS seats
+
+**MedObsMind Support:**
+
+1. **Medical Education Enhancement**
+   - Digital learning platform for new AIIMS
+   - Standardized curriculum delivery
+   - Faculty development programs
+   - Research collaboration support
+
+2. **Hospital Infrastructure Support**
+   - ICU monitoring for new super-specialty hospitals
+   - Clinical decision support
+   - Quality improvement tools
+   - Patient safety systems
+
+3. **Telemedicine Network**
+   - Connect PMSSY institutions with district hospitals
+   - Expert consultation support
+   - Case discussion platforms
+   - Continuing medical education
+
+---
+
+### E. e-Sanjeevani (National Telemedicine Service)
+
+**About:**
+- Doctor-to-Doctor (eSanjeevani) telemedicine
+- Patient-to-Doctor (eSanjeevani OPD) telemedicine
+- 100 million teleconsultations milestone achieved
+- Integration with ABDM
+
+**MedObsMind Integration:**
+
+1. **Teleconsultation Support**
+   - Patient vitals display for remote consultation
+   - Clinical history summary generation
+   - Treatment recommendation support
+   - Follow-up scheduling
+
+2. **Tele-ICU Capabilities**
+   - Remote ICU monitoring
+   - Specialist consultation for critical patients
+   - Real-time alerts to remote specialists
+   - Multi-site ICU management
+
+3. **Rural Healthcare Bridge**
+   - Connect tier-3 hospitals with tertiary centers
+   - Emergency consultation support
+   - Clinical protocol guidance
+   - Referral decision support
+
+---
+
+### F. Pradhan Mantri Bhartiya Janaushadhi Pariyojana (PMBJP)
+
+**About:**
+- Generic medicine stores (Jan Aushadhi Kendras)
+- 9,000+ stores across India
+- 60-90% cheaper than branded medicines
+- 1,800+ generic medicines available
+
+**MedObsMind Integration:**
+
+1. **Generic Medication Prioritization**
+   - Generic-first prescription recommendations
+   - Jan Aushadhi medicine availability mapping
+   - Cost comparison (branded vs. generic)
+   - Patient affordability consideration
+
+2. **Drug Formulary**
+   - Jan Aushadhi catalogue integration
+   - Essential medicines list (WHO/India)
+   - Generic substitution suggestions
+   - Cost-effective treatment protocols
+
+3. **Ethics Training**
+   - Generic vs. branded medication ethics
+   - Conflict of interest awareness
+   - Patient affordability consideration
+   - Social responsibility in prescribing
+
+**Example Case:**
+```
+Patient: Low-income, needs anti-hypertensive
+AI Recommendation:
+- Generic Amlodipine (Jan Aushadhi): ₹2-3 per strip
+- Branded equivalent: ₹50-100 per strip
+- Clinical equivalence: Same efficacy
+- Ethical choice: Generic for affordability
+- AETCOM Module: Module 4 (Healthcare System, Social Responsibility)
+```
+
+---
+
+### G. Rashtriya Bal Swasthya Karyakram (RBSK)
+
+**About:**
+- Child health screening and early intervention
+- 0-18 years age group
+- 4Ds: Defects at birth, Developmental delays, Deficiencies, Diseases
+
+**MedObsMind Support:**
+
+1. **Screening Protocols**
+   - RBSK screening checklist integration
+   - Developmental milestone tracking
+   - Early warning for delays
+   - Referral criteria
+
+2. **School Health Programs**
+   - Vision and hearing screening support
+   - Dental health monitoring
+   - Anemia screening
+   - Growth monitoring
+
+---
+
+### H. National Programme for Prevention and Control of Cancer, Diabetes, Cardiovascular Diseases and Stroke (NPCDCS)
+
+**About:**
+- Focus on non-communicable diseases (NCDs)
+- Early detection and management
+- District NCD centres
+- Screening camps
+
+**MedObsMind Integration:**
+
+1. **NCD Risk Screening**
+   - Diabetes risk assessment
+   - Hypertension screening protocols
+   - CVD risk stratification
+   - Stroke early warning
+
+2. **NCD Clinics**
+   - Treatment protocol adherence
+   - Follow-up tracking
+   - Complication monitoring
+   - Referral to tertiary care
+
+3. **Population Health**
+   - District-level NCD burden tracking
+   - Screening camp data management
+   - Community health worker support
+   - Prevention program monitoring
+
+---
+
+### I. Integration Benefits for Government Schemes
+
+**1. For Beneficiaries:**
+- ✅ Equal quality care regardless of payment status
+- ✅ Scheme-aware clinical decision-making
+- ✅ Affordable treatment options (generic medicines)
+- ✅ Digital health records (ABDM integration)
+- ✅ Telemedicine access (e-Sanjeevani)
+
+**2. For Hospitals:**
+- ✅ Seamless scheme integration (PMJAY, State schemes)
+- ✅ Documentation and claims support
+- ✅ Quality monitoring and improvement
+- ✅ ABDM compliance made easy
+- ✅ Government program reporting simplified
+
+**3. For Healthcare System:**
+- ✅ Universal health coverage support
+- ✅ Equity in healthcare delivery
+- ✅ Cost-effective care (generic medicines)
+- ✅ Standardized protocols across schemes
+- ✅ Data-driven policy making
+
+**4. For Medical Education:**
+- ✅ Social medicine exposure for students
+- ✅ Government scheme awareness
+- ✅ Public health perspective
+- ✅ Health economics understanding
+- ✅ Community medicine integration
+
+---
+
+### J. Ethics & Social Responsibility
+
+**AETCOM Module 4 Alignment:**
+
+**Healthcare Delivery in India:**
+- Understanding government health schemes
+- Role of doctor in universal health coverage
+- Social determinants of health
+- Equity and access issues
+- Public vs. private healthcare
+
+**Professional Responsibilities:**
+- Participation in government programs
+- Generic medication advocacy
+- Health promotion and disease prevention
+- Community engagement
+- National health priorities
+
+**Case-Based Learning:**
+```
+Ethics Scenario: Patient presents with PMJAY card but hospital prefers private patients
+
+Ethical Dilemma:
+1. Hospital's financial pressure to prioritize private patients
+2. Doctor's professional obligation under PMJAY empanelment
+3. Patient's right to treatment under government scheme
+4. Junior doctor's position (resident) - how to handle?
+
+MedObsMind Teaching:
+- Professional ethics over commercial interests
+- PMJAY legal obligations
+- Patient advocacy role
+- Reporting mechanisms
+- Balancing hospital and patient needs
+
+AETCOM Focus: Professional conduct, social responsibility, equity
+NMC Competency: Affective domain - Professionalism, Health advocacy
+CanMEDS Role: Health Advocate, Professional
+```
+
+---
+
+### K. Technical Integration Architecture
+
+**Government Scheme Integration Stack:**
+
+```python
+GOVERNMENT_SCHEMES = {
+    "PMJAY": {
+        "beneficiary_verification": "API integration",
+        "package_mapping": "Treatment protocols",
+        "documentation": "Automated claims support"
+    },
+    "ABDM": {
+        "abha_integration": "14-digit health ID",
+        "data_standards": "FHIR R4 compliance",
+        "consent_framework": "Electronic consent",
+        "hpr_integration": "Doctor registration"
+    },
+    "e_Sanjeevani": {
+        "teleconsultation": "Video integration",
+        "vitals_sharing": "Remote monitoring",
+        "prescription": "Digital prescription"
+    },
+    "Jan_Aushadhi": {
+        "medicine_catalogue": "Generic formulary",
+        "cost_comparison": "Price analytics",
+        "availability": "Store locator"
+    }
+}
+```
+
+**Data Flow:**
+```
+Patient Registration → ABHA Number Verification → Scheme Eligibility Check
+    ↓
+Clinical Assessment → Vitals Monitoring → AI Decision Support
+    ↓
+Treatment Protocol (Scheme-Aware) → Generic Medicine Priority
+    ↓
+Documentation → Claims Support → Quality Reporting
+```
+
+---
+
+### L. Compliance & Reporting
+
+**Government Reporting Requirements:**
+
+1. **HMIS (Health Management Information System)**
+   - Monthly hospital statistics
+   - Disease surveillance data
+   - Maternal and child health indicators
+   - Program-specific reporting
+
+2. **PMJAY Claims & Audits**
+   - Treatment documentation
+   - Pre-authorization records
+   - Discharge summaries
+   - Quality audits
+
+3. **ABDM Data Exchange**
+   - Consent-based data sharing
+   - FHIR-compliant records
+   - Interoperability testing
+   - Privacy compliance
+
+4. **National Programs**
+   - TB notification (Nikshay portal)
+   - COVID-19 reporting (ICMR portal)
+   - Vaccine adverse events (AEFI)
+   - Disease surveillance (IDSP)
+
+**MedObsMind Automation:**
+- Automated report generation
+- Real-time data synchronization
+- Compliance dashboard
+- Audit trail maintenance
+
+---
+
+## 11. Future Vision
+
+### Long-Term AETCOM/NMC/NBEMS/Government Schemes Integration
 
 **Year 1-2:**
-- Partnership with 10-20 medical colleges
+- Partnership with 10-20 medical colleges and NBEMS-accredited hospitals
 - AETCOM case library (200+ cases)
-- Student user base: 5,000-10,000
+- Student user base: 5,000-10,000 (MBBS + DNB residents)
 - Faculty training programs
 - Research on AI in medical education
+- PMJAY hospital pilot integrations (5-10 hospitals)
+- ABDM compliance and certification
 
 **Year 3-5:**
-- National-scale adoption (50-100 colleges)
+- National-scale adoption (50-100 colleges, 100+ NBEMS hospitals)
 - NMC recognition as AETCOM tool
+- NBEMS endorsement for residency training
 - Competency certification integration
 - Multi-language (10+ regional languages)
 - Voice-based scenarios
 - VR/AR ethics simulations
+- Full ABDM ecosystem integration
+- e-Sanjeevani teleconsultation platform
+- National Health Mission collaboration
 
 **Year 5-10:**
-- All Indian medical colleges
+- All Indian medical colleges and major NBEMS training centers
 - Continuous professional development platform
-- International expansion (South Asia)
+- International expansion (South Asia, SAARC countries)
 - Research center for AI ethics in medicine
 - Gold standard for ethical medical AI education
+- Government policy influence on AI in healthcare
+- Universal health coverage support (PMJAY expansion)
+- National digital health infrastructure backbone
 
 ---
 
-## 11. Conclusion
+## 12. Conclusion
 
-### MedObsMind: Where Clinical AI Meets Medical Education
+### MedObsMind: Where Clinical AI Meets Medical Education & National Health
 
 **Core Philosophy:**
 
-> "Train tomorrow's doctors to use AI ethically, communicate compassionately, and practice medicine that's grounded in Indian reality while meeting global standards."
+> "Train tomorrow's doctors to use AI ethically, communicate compassionately, practice medicine that's grounded in Indian reality while meeting global standards, and serve all patients equally regardless of their socioeconomic status."
 
-**AETCOM Integration Benefits:**
+**Comprehensive Integration Benefits:**
 
-1. ✅ **Curriculum-Aligned:** Directly supports MBBS requirements
-2. ✅ **India-Specific:** Cases reflect local healthcare context
-3. ✅ **Ethics-First:** AI that teaches ethical reasoning
-4. ✅ **NMC-Compliant:** Meets regulatory standards
-5. ✅ **Competency-Based:** Structured skill development
-6. ✅ **Accessible:** Free for students, affordable for colleges
-7. ✅ **Scalable:** From tier-1 to tier-3 institutions
+1. ✅ **Curriculum-Aligned:** MBBS (AETCOM/NMC) + Postgraduate (NBEMS/CanMEDS)
+2. ✅ **India-Specific:** Cases reflect local healthcare context and government schemes
+3. ✅ **Ethics-First:** AI that teaches ethical reasoning and social responsibility
+4. ✅ **Regulatory-Compliant:** NMC, NBEMS, CDSCO, DPDP Act, ABDM standards
+5. ✅ **Competency-Based:** Structured skill development (K/KH/S/D + CanMEDS)
+6. ✅ **Accessible:** Free for students, affordable for hospitals, PMJAY-integrated
+7. ✅ **Scalable:** From tier-1 to tier-3 institutions, rural to urban
+8. ✅ **Scheme-Aware:** PMJAY, ABDM, e-Sanjeevani, Jan Aushadhi integration
 
 **Unique Value Proposition:**
 
-MedObsMind is not just a clinical AI tool—it's an **AETCOM-aligned educational platform** that prepares Indian medical students to practice ethical, compassionate, and competent medicine in the AI era.
+MedObsMind is not just a clinical AI tool—it's a **comprehensive platform** that:
+- Supports **AETCOM-aligned undergraduate education**
+- Facilitates **NBEMS-compliant postgraduate training**
+- Integrates with **Indian government healthcare schemes**
+- Promotes **universal health coverage** and **equity in healthcare**
+- Prepares doctors to practice **ethical, compassionate, and socially responsible medicine**
+
+**National Impact:**
+
+MedObsMind contributes to:
+- **Medical Education:** Training ethically grounded, AI-literate doctors
+- **Healthcare Delivery:** Supporting government schemes (PMJAY, ABDM, NHM)
+- **Universal Health Coverage:** Equal care for all beneficiaries
+- **Digital Health Mission:** ABDM-compliant health data exchange
+- **Cost-Effective Care:** Generic medication prioritization (Jan Aushadhi)
+- **Rural Healthcare:** Telemedicine support (e-Sanjeevani)
+- **Public Health:** NCD screening, disease surveillance, maternal-child health
 
 **Commitment:**
 
-We pledge to support Indian medical education by:
-- Continuously updating with NMC guidelines
-- Expanding AETCOM case library
-- Partnering with medical colleges
-- Research in AI ethics education
-- Maintaining free access for students
+We pledge to support Indian healthcare by:
+- Continuously updating with NMC and NBEMS guidelines
+- Expanding AETCOM case library and NBEMS training modules
+- Partnering with medical colleges and accredited hospitals
+- Supporting government health schemes (PMJAY, ABDM, etc.)
+- Research in AI ethics education and clinical decision support
+- Maintaining free access for students and residents
+- Ensuring equity in healthcare (scheme-aware decision-making)
 - Respecting patient privacy and dignity
 - Upholding the highest medical ethics standards
+- Contributing to Ayushman Bharat and Universal Health Coverage goals
 
 ---
 
-## 12. Contact & Collaboration
+## 13. Contact & Collaboration
 
 ### For Medical Colleges
 
@@ -755,12 +1483,40 @@ Areas of interest:
 
 ## References
 
-### AETCOM Resources
+### AETCOM & NMC Resources
 
 1. **AETCOM Module (NMC, 2019):** [Official PDF]
-2. **Competency-Based Medical Education Guidelines (NMC)**
+2. **Competency-Based Medical Education Guidelines (NMC, 2019)**
 3. **Indian Medical Council (Professional Conduct) Regulations, 2002**
 4. **Graduate Medical Education Regulations, 2019**
+5. **National Medical Commission Act, 2019**
+
+### NBEMS Resources
+
+1. **DNB Curriculum and Assessment Guidelines (NBEMS)**
+2. **CanMEDS Framework - Indian Adaptation**
+3. **DNB Final Examination Regulations**
+4. **NBEMS Accreditation Standards for Hospitals**
+5. **Fellowship (FNB) Training Guidelines**
+
+### Government Healthcare Schemes
+
+1. **Ayushman Bharat - PMJAY Guidelines:** [pmjay.gov.in](https://pmjay.gov.in)
+2. **Ayushman Bharat Digital Mission (ABDM):** [abdm.gov.in](https://abdm.gov.in)
+3. **National Health Mission (NHM) Framework:** [nhm.gov.in](https://nhm.gov.in)
+4. **e-Sanjeevani Telemedicine Platform:** [esanjeevani.in](https://esanjeevani.in)
+5. **Pradhan Mantri Bhartiya Janaushadhi Pariyojana:** [janaushadhi.gov.in](https://janaushadhi.gov.in)
+6. **PMSSY (Medical College) Guidelines**
+7. **Rashtriya Bal Swasthya Karyakram (RBSK)**
+8. **NPCDCS (Non-Communicable Diseases Programme)**
+
+### Regulatory & Compliance
+
+1. **CDSCO (Medical Device) Regulations**
+2. **Digital Personal Data Protection Act (DPDP), 2023**
+3. **FHIR R4 Standards for Health Data Exchange**
+4. **ICMR Guidelines - Biomedical Research & Clinical Protocols**
+5. **AIIMS Clinical Protocols and Guidelines**
 
 ### Related MedObsMind Documentation
 
@@ -772,7 +1528,7 @@ Areas of interest:
 
 ---
 
-**Document Version:** 1.0  
+**Document Version:** 2.0  
 **Last Updated:** February 2026  
 **Status:** Active  
-**Review Cycle:** Quarterly (aligned with NMC updates)
+**Review Cycle:** Quarterly (aligned with NMC, NBEMS, and Government scheme updates)

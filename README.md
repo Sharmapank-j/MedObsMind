@@ -417,11 +417,13 @@ MedObsMind has extensive documentation (130+ KB) covering every aspect:
   - Population parameters, disease patterns, drug dosing
   - Infrastructure reality, language support, cultural factors
   - Regulatory compliance (ICMR, CDSCO, DPDP Act)
-- **[AETCOM & NMC Integration](docs/AETCOM_NMC_INTEGRATION.md)** (23 KB) - Medical education alignment ⭐ NEW
+- **[AETCOM, NMC & NBEMS Integration](docs/AETCOM_NMC_INTEGRATION.md)** (30 KB) - Medical education & govt schemes ⭐ UPDATED
   - AETCOM module integration (Ethics, Communication, Attitude)
   - NMC competency framework (K/KH/S/D progression)
-  - Education mode features for MBBS students
-  - Ethical AI in medical education
+  - NBEMS postgraduate training (DNB/DrNB/FNB, CanMEDS framework)
+  - Indian Government Healthcare Schemes (PMJAY, ABDM, NHM, e-Sanjeevani, Jan Aushadhi)
+  - Education mode features for MBBS students and residents
+  - Ethical AI in medical education and public healthcare
 
 ### 🏗️ Technical & Implementation
 - **[AI Architecture](docs/AI_ARCHITECTURE.md)** (12 KB) - Edge + Cloud design
