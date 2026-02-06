@@ -10,7 +10,26 @@ MedObsMind is an **AI-powered medical observation and clinical support system** 
 
 ### One-Line Identity
 
-*"An AI-powered medical observation and clinical support system built to improve patient safety, clinical reasoning, and medical education under strict ethical governance."*
+*"An India-trained, rule-first, safety-locked medical AI system that continuously observes ICU patients, explains clinical risks using a medical LLM, and always keeps human clinicians in full control."*
+
+### Core Philosophy: Rule-First AI 🛡️
+
+**MedObsMind follows a strict hierarchy:**
+1. **Rules Fire First** - Clinical protocols (NEWS2, qSOFA, threshold alerts) trigger FIRST
+2. **LLM Explains After** - Medical AI explains why alert fired and provides context
+3. **Human Decides Always** - Clinician has final authority on all clinical decisions
+
+**What MedObsMind Does:**
+- ✅ Continuous 24/7 patient monitoring
+- ✅ Transparent clinical reasoning with explanations
+- ✅ Evidence-based alerts and recommendations
+- ✅ Educational support for medical students
+
+**What MedObsMind Does NOT Do:**
+- ❌ Autonomous diagnosis (always advisory)
+- ❌ Prescribe medications (human decision required)
+- ❌ Override clinician judgment (human has final say)
+- ❌ Black-box decisions (all reasoning is explainable)
 
 ### Position in Healthcare Ecosystem
 
@@ -370,6 +389,43 @@ See [ANDROID_BUILD.md](ANDROID_BUILD.md) for detailed instructions.
 - [ ] Multi-hospital deployment
 - [ ] Compliance certifications
 
+## 📚 Comprehensive Documentation
+
+MedObsMind has extensive documentation (120+ KB) covering every aspect:
+
+### 🎯 Core Vision & Architecture
+- **[Complete Vision](docs/COMPLETE_VISION.md)** (21 KB) - End-to-end explanation
+  - Core identity, governance, design philosophy
+  - Rule-first approach: Rules → LLM → Human → Decision
+  - All 5 modules, data flow, hardware specs, roadmap
+- **[LLM Architecture](docs/LLM_ARCHITECTURE.md)** (19 KB) - Medical LLM design
+  - "Explain don't decide" principle
+  - LLaMA-3 8B, LoRA fine-tuning, RAG layer
+  - Safety guardrails, confidence scoring, deployment
+- **[India Context](docs/INDIA_CONTEXT.md)** (20 KB) - India-specific considerations
+  - Population parameters, disease patterns, drug dosing
+  - Infrastructure reality, language support, cultural factors
+  - Regulatory compliance (ICMR, CDSCO, DPDP Act)
+
+### 🏗️ Technical & Implementation
+- **[AI Architecture](docs/AI_ARCHITECTURE.md)** (12 KB) - Edge + Cloud design
+- **[Feature Matrix](docs/FEATURE_MATRIX.md)** (7 KB) - Features by user type
+- **[ICU MVP Roadmap](docs/ICU_MVP_ROADMAP.md)** (12 KB) - 3-phase plan
+
+### 💼 Business & Governance
+- **[Cost-Impact Model](docs/COST_IMPACT_MODEL.md)** (13 KB) - Financial & social impact
+- **[Governance Framework](docs/GOVERNANCE.md)** (14 KB) - Ethics and oversight
+
+### 🔧 Setup & Development
+- **[Backend README](backend/README.md)** - API documentation
+- **[Android Build Guide](ANDROID_BUILD.md)** - App build instructions
+- **[Working Apps Inventory](WORKING_APPS.md)** - Repository status
+
+### 👥 Community
+- **[Contributing Guidelines](CONTRIBUTING.md)** - How to contribute
+- **[Code of Conduct](CODE_OF_CONDUCT.md)** - Community standards
+- **[License](LICENSE)** - MIT with medical disclaimer
+
 ## 🤝 Contributing
 
 This is currently a solo development project for Indian hospitals. Contributions welcome for:
@@ -378,6 +434,8 @@ This is currently a solo development project for Indian hospitals. Contributions
 - UI/UX improvements
 - Testing and documentation
 - Hospital-specific integrations
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ## 📄 License
 
