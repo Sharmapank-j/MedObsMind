@@ -490,34 +490,77 @@ if hospital_location in SCRUB_TYPHUS_ZONES:
 
 ## 9. Indian Medical Education Context
 
-### MBBS Curriculum
+### MBBS Curriculum (NMC Guidelines)
 
 **Duration:** 5.5 years (4.5 years + 1 year internship)
+
+**Competency-Based Medical Education (CBME) - NMC 2019:**
+- 3 domains: Cognitive (Knowledge), Psychomotor (Skills), Affective (Attitude)
+- 4 competency levels: K (Knows), KH (Knows How), S (Shows), D (Does)
+- Focus on patient-centered care
+- Community health integration
 
 **Core Competencies:**
 - Emphasis on clinical examination (limited imaging access)
 - Community medicine (rural health)
 - Tropical diseases (malaria, TB, dengue)
 - Cost-effective diagnosis
+- Professional ethics and communication
 
 **MedObsMind Education Mode Alignment:**
 - Clinical reasoning (history + examination first, tests later)
 - Differential diagnosis practice
 - Viva-style Q&A (oral exams common)
 - Case-based learning
+- Competency tracking (K → KH → S → D)
+
+### AETCOM (Attitude, Ethics, and Communication)
+
+**NMC Foundation Course - Mandatory for all MBBS students**
+
+**4 Core Modules:**
+1. **Module 1:** The Student, the Family, and Society (Foundation - Year 1)
+2. **Module 2:** Specific Clinical Cases (Years 2-3)
+3. **Module 3:** Advanced Clinical Scenarios (Years 4-5)
+4. **Module 4:** The Healthcare System (Internship)
+
+**Learning Methods:**
+- Experiential learning (real patient interactions)
+- Reflective writing (case journals)
+- Role play (communication scenarios)
+- Group discussions (ethical dilemmas)
+- Community visits
+
+**MedObsMind AETCOM Integration:**
+- **Ethics Scenarios:** ICU dilemmas, resource allocation, end-of-life care
+- **Communication Practice:** Breaking bad news, informed consent, family counseling
+- **Case-Based Learning:** Tagged by AETCOM module and NMC competency
+- **Competency Portfolio:** Digital tracking for NMC submission
+- **Cultural Sensitivity:** India-specific healthcare contexts
+
+**Unique Features:**
+- All clinical cases mapped to AETCOM modules
+- LLM explains ethical reasoning
+- Reflective prompts for student journals
+- Assessment aligned with NMC competencies
+- Free access for MBBS students
+
+**For Complete Details:** See [AETCOM & NMC Integration](./AETCOM_NMC_INTEGRATION.md)
 
 ### NEET PG (Post-Graduate Entrance)
 
 **Pattern:**
 - 200 MCQs (Multiple Choice Questions)
-- Focus on clinical scenarios
+- Focus on clinical scenarios and ethics
 - Time pressure (3.5 hours)
+- Increasing emphasis on AETCOM competencies
 
 **MedObsMind Practice Module:**
 - NEET PG-style questions
 - Timed case scenarios
-- Explanation for each answer
+- Explanation for each answer (including ethical reasoning)
 - Focus on high-yield topics
+- AETCOM-aligned ethics questions
 
 ### Residency Training
 

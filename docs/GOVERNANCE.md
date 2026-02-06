@@ -498,6 +498,73 @@ Reference: Royal College of Physicians (2017)
 
 ---
 
+## Regulatory Compliance: NMC & AETCOM
+
+### National Medical Commission (NMC) Alignment
+
+MedObsMind operates in accordance with NMC (National Medical Commission) guidelines for medical education and practice in India.
+
+**NMC Compliance Areas:**
+
+#### 1. Medical Education Standards
+- **Graduate Medical Education Regulations, 2019:** Support for competency-based medical education
+- **AETCOM Integration:** Alignment with Attitude, Ethics, and Communication module
+- **Student Training:** Ethical use of AI in clinical practice
+- **Assessment Tools:** Competency evaluation for MBBS students
+
+#### 2. Professional Conduct
+- **Indian Medical Council (Professional Conduct, Etiquette and Ethics) Regulations, 2002**
+- Doctor-patient relationship preservation
+- Professional responsibility in AI-assisted care
+- Ethical obligations in technology use
+- Patient rights and autonomy
+
+#### 3. Technology in Healthcare
+- **Innovation Encouragement:** NMC supports modern teaching methods
+- **Simulation-Based Learning:** Safe environment for skill development
+- **Ethical Framework:** Strong ethics integration required
+- **Patient Privacy:** Mandatory data protection
+
+**MedObsMind's NMC Compliance Measures:**
+
+1. **Education Mode:** AETCOM-aligned case studies and ethics scenarios
+2. **Competency Tracking:** NMC competency framework integration (K/KH/S/D levels)
+3. **Ethics Training:** Professional conduct reinforcement
+4. **Documentation:** Student portfolio and certification support
+5. **Regular Updates:** Alignment with evolving NMC guidelines
+
+**For Details:** See [AETCOM & NMC Integration Documentation](./AETCOM_NMC_INTEGRATION.md)
+
+### CDSCO (Medical Device Regulation)
+
+**Central Drugs Standard Control Organization** oversees medical device approval in India.
+
+**MedObsMind Classification:**
+- Software as a Medical Device (SaMD) - Risk Class B/C
+- Clinical Decision Support System
+- Requires CDSCO registration and approval
+
+**Compliance Path:**
+1. Risk classification assessment
+2. Clinical performance evaluation
+3. Pre-market approval application
+4. Post-market surveillance
+5. Adverse event reporting
+
+### DPDP Act 2023 (Data Protection)
+
+**Digital Personal Data Protection Act, 2023** compliance:
+
+- Explicit consent for data processing
+- Purpose limitation
+- Data minimization
+- Right to erasure
+- Security safeguards
+- Breach notification (72 hours)
+- Data localization (where required)
+
+---
+
 ## Continuous Evolution
 
 ### Governance Review
@@ -506,14 +573,15 @@ Reference: Royal College of Physicians (2017)
 - Assess effectiveness of oversight
 - Update ethical guidelines
 - Revise policies as needed
-- Incorporate regulatory changes
+- Incorporate regulatory changes (NMC, CDSCO, DPDP)
 - Benchmark against best practices
 
 **Stakeholder Input:**
 - Clinical advisory board
 - Patient advocacy groups
-- Regulatory consultants
+- Regulatory consultants (NMC, CDSCO)
 - Academic ethicists
+- Medical education experts
 - Technology experts
 
 ---

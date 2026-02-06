@@ -71,13 +71,24 @@ MedObsMind is built around four integrated core modules:
 - Clinical note templates and auto-completion
 
 ### D. Education Mode 🎓
-**Case-based learning and clinical reasoning**
+**Case-based learning and clinical reasoning aligned with NMC standards**
 - Interactive case studies with AI explanations
 - Clinical reasoning walkthroughs (why/how)
+- **AETCOM module integration** - Ethics, communication, professionalism
+- **NMC competency tracking** - K/KH/S/D progression
 - Exam correlation with real-world scenarios
 - Bedside learning companion for students
 - Mistake analysis and learning feedback
-- MBBS curriculum alignment
+- MBBS curriculum alignment (CBME)
+- Digital portfolio for competency assessment
+
+**AETCOM Features:**
+- Ethics scenario simulations (resource allocation, consent, end-of-life)
+- Communication skills practice (breaking bad news, family counseling)
+- Reflective learning prompts and journals
+- Cultural sensitivity training for Indian healthcare context
+
+*See [AETCOM & NMC Integration](./docs/AETCOM_NMC_INTEGRATION.md) for details*
 
 ## 👥 Target Users
 
@@ -391,7 +402,7 @@ See [ANDROID_BUILD.md](ANDROID_BUILD.md) for detailed instructions.
 
 ## 📚 Comprehensive Documentation
 
-MedObsMind has extensive documentation (120+ KB) covering every aspect:
+MedObsMind has extensive documentation (130+ KB) covering every aspect:
 
 ### 🎯 Core Vision & Architecture
 - **[Complete Vision](docs/COMPLETE_VISION.md)** (21 KB) - End-to-end explanation
@@ -406,6 +417,11 @@ MedObsMind has extensive documentation (120+ KB) covering every aspect:
   - Population parameters, disease patterns, drug dosing
   - Infrastructure reality, language support, cultural factors
   - Regulatory compliance (ICMR, CDSCO, DPDP Act)
+- **[AETCOM & NMC Integration](docs/AETCOM_NMC_INTEGRATION.md)** (23 KB) - Medical education alignment ⭐ NEW
+  - AETCOM module integration (Ethics, Communication, Attitude)
+  - NMC competency framework (K/KH/S/D progression)
+  - Education mode features for MBBS students
+  - Ethical AI in medical education
 
 ### 🏗️ Technical & Implementation
 - **[AI Architecture](docs/AI_ARCHITECTURE.md)** (12 KB) - Edge + Cloud design
@@ -414,12 +430,13 @@ MedObsMind has extensive documentation (120+ KB) covering every aspect:
 
 ### 💼 Business & Governance
 - **[Cost-Impact Model](docs/COST_IMPACT_MODEL.md)** (13 KB) - Financial & social impact
-- **[Governance Framework](docs/GOVERNANCE.md)** (14 KB) - Ethics and oversight
+- **[Governance Framework](docs/GOVERNANCE.md)** (14 KB) - Ethics, oversight, and NMC compliance
 
 ### 🔧 Setup & Development
 - **[Backend README](backend/README.md)** - API documentation
 - **[Android Build Guide](ANDROID_BUILD.md)** - App build instructions
 - **[Working Apps Inventory](WORKING_APPS.md)** - Repository status
+- **[Implementation Status](STATUS.md)** - Current progress and roadmap
 
 ### 👥 Community
 - **[Contributing Guidelines](CONTRIBUTING.md)** - How to contribute
