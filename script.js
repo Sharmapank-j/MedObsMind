@@ -54,28 +54,33 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add 3D card tilt effect on mouse move
     const cards3d = document.querySelectorAll('.card-3d');
     
-    cards3d.forEach(card => {
-        card.addEventListener('mousemove', function(e) {
-            // Skip on touch devices
-            if ('ontouchstart' in window) return;
+    // Check if user prefers reduced motion
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    
+    if (!prefersReducedMotion) {
+        cards3d.forEach(card => {
+            card.addEventListener('mousemove', function(e) {
+                // Skip on touch devices
+                if ('ontouchstart' in window) return;
+                
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+                
+                const rotateX = ((y - centerY) / centerY) * 5;
+                const rotateY = ((centerX - x) / centerX) * 5;
+                
+                card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-10px)`;
+            });
             
-            const rect = card.getBoundingClientRect();
-            const x = e.clientX - rect.left;
-            const y = e.clientY - rect.top;
-            
-            const centerX = rect.width / 2;
-            const centerY = rect.height / 2;
-            
-            const rotateX = ((y - centerY) / centerY) * 5;
-            const rotateY = ((centerX - x) / centerX) * 5;
-            
-            card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-10px)`;
+            card.addEventListener('mouseleave', function() {
+                card.style.transform = 'perspective(1000px) rotateX(0) rotateY(0) translateY(0)';
+            });
         });
-        
-        card.addEventListener('mouseleave', function() {
-            card.style.transform = 'perspective(1000px) rotateX(0) rotateY(0) translateY(0)';
-        });
-    });
+    }
     
     // Button click handlers
     const primaryButtons = document.querySelectorAll('.primary-button');
@@ -142,13 +147,6 @@ document.addEventListener('DOMContentLoaded', function() {
     if (mainElement && !mainElement.id) {
         mainElement.id = 'main';
     }
-    
-    // Performance: Preload critical assets
-    const preloadLink = document.createElement('link');
-    preloadLink.rel = 'preload';
-    preloadLink.as = 'style';
-    preloadLink.href = 'styles.css';
-    document.head.appendChild(preloadLink);
     
     console.log('MedObsMind landing page loaded successfully');
 });
