@@ -47,12 +47,12 @@ android {
     }
     
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-        targetCompatibility JavaVersion.VERSION_17
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
     
     kotlinOptions {
-        jvmTarget = '17'
+        jvmTarget = '11'
     }
     
     buildFeatures {
@@ -134,8 +134,8 @@ dependencies {
     // Timber for logging
     implementation 'com.jakewharton.timber:timber:5.0.1'
     
-    // Encryption for secure storage
-    implementation 'androidx.security:security-crypto:1.1.0-alpha06'
+    // Encryption for secure storage (stable version)
+    implementation 'androidx.security:security-crypto:1.0.0'
     
     // Testing
     testImplementation 'junit:junit:4.13.2'

@@ -19,12 +19,6 @@
         <item name="android:windowBackground">@color/background_gradient</item>
     </style>
     
-    <!-- Splash screen theme -->
-    <style name="Theme.MedObsMind.Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="android:windowBackground">@drawable/splash_background</item>
-        <item name="android:statusBarColor">@color/teal_primary</item>
-    </style>
-    
     <!-- Button styles -->
     <style name="Widget.MedObsMind.Button" parent="Widget.MaterialComponents.Button">
         <item name="cornerRadius">16dp</item>

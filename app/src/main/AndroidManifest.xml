@@ -23,9 +23,9 @@
     <!-- Wake lock for background processing -->
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     
-    <!-- Storage permissions for on-device model -->
-    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
-        tools:ignore="ScopedStorage" />
+    <!-- Storage permissions for on-device model (using scoped storage) -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
 
     <application
         android:name=".MedObsMindApplication"
@@ -54,13 +54,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
-        <!-- Splash Activity -->
-        <activity
-            android:name=".SplashActivity"
-            android:exported="false"
-            android:theme="@style/Theme.MedObsMind.Splash"
-            android:noHistory="true" />
         
         <!-- Medical AI Service for background processing -->
         <service

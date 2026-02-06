@@ -80,11 +80,11 @@ class MainActivity : AppCompatActivity() {
     }
     
     private fun showLoading() {
-        binding.progressBar?.visibility = View.VISIBLE
+        binding.progressBar.visibility = View.VISIBLE
     }
     
     private fun hideLoading() {
-        binding.progressBar?.visibility = View.GONE
+        binding.progressBar.visibility = View.GONE
     }
     
     private fun showError(message: String) {
