@@ -2,6 +2,12 @@
                     MedObsMind - DEPLOYMENT STATUS
 ================================================================================
 
+🎉 WEBSITE IS LIVE! 🎉
+
+🌐 VISIT NOW: https://sharmapank-j.github.io/MedObsMind
+
+================================================================================
+
 Date: February 6, 2026
 Repository: Sharmapank-j/MedObsMind
 Branch: copilot/create-medobsmind-landing-page

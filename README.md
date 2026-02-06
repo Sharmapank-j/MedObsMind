@@ -4,6 +4,25 @@
 
 An intelligent clinical support system for real-time patient monitoring, clinical reasoning assistance, and medical education - built under strict ethical governance for students, clinicians, and hospitals.
 
+---
+
+## 🌐 Live Website & Access
+
+**🎉 MedObsMind is LIVE and accessible now!**
+
+### 🔗 Visit the Platform
+
+| Platform | URL | Status |
+|----------|-----|--------|
+| **🌐 Main Website** | **[https://sharmapank-j.github.io/MedObsMind](https://sharmapank-j.github.io/MedObsMind)** | ✅ **LIVE NOW** |
+| **🌍 Custom Domain** | [https://medobsmind.in](https://medobsmind.in) | 🔄 Ready (DNS Setup) |
+| **🔌 API Endpoint** | [https://api.medobsmind.in](https://api.medobsmind.in) | 🔄 Ready (After Backend Deploy) |
+| **👨‍💼 Admin Portal** | [https://admin.medobsmind.in](https://admin.medobsmind.in) | 🔄 Ready (After Backend Deploy) |
+
+**Quick Access:** **[Click Here to Visit MedObsMind →](https://sharmapank-j.github.io/MedObsMind)**
+
+---
+
 ## 🎯 What MedObsMind Is
 
 MedObsMind is an **AI-powered medical observation and clinical support system** designed to improve patient safety, enhance clinical reasoning, and support medical education. It combines real-time vitals monitoring, intelligent alerts, and evidence-based decision support to help healthcare professionals detect patient deterioration early and make informed clinical decisions.
@@ -320,6 +339,29 @@ MedObsMind/
 
 ## 🚀 Quick Start
 
+### 🌐 Try MedObsMind Now (Live Website)
+
+**Visit the live platform:** **[https://sharmapank-j.github.io/MedObsMind](https://sharmapank-j.github.io/MedObsMind)** 🎉
+
+The website is already deployed and accessible! You can:
+- ✅ View the platform overview
+- ✅ Explore features and capabilities
+- ✅ See the user interface
+- ✅ Learn about the technology
+
+---
+
+### 💻 Deploy Your Own Instance
+
+**One-Line Production Deploy:**
+```bash
+curl -fsSL https://raw.githubusercontent.com/Sharmapank-j/MedObsMind/main/scripts/deploy.sh | sudo bash
+```
+
+See [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md) for complete deployment instructions.
+
+---
+
 ### Backend Setup
 
 ```bash
@@ -470,8 +512,15 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ## 📞 Contact & Support
 
-- **Email**: support@medobsmind.com
+### 🌐 Website & Platform
+- **Live Website**: [https://sharmapank-j.github.io/MedObsMind](https://sharmapank-j.github.io/MedObsMind) ⭐ **VISIT NOW**
+- **Custom Domain**: [https://medobsmind.in](https://medobsmind.in) (After DNS setup)
+- **API Docs**: [https://api.medobsmind.in/docs](https://api.medobsmind.in/docs) (After backend deploy)
+
+### 📧 Get in Touch
+- **Email**: support@medobsmind.in
 - **GitHub Issues**: [Report bugs or request features](https://github.com/Sharmapank-j/MedObsMind/issues)
+- **GitHub Repository**: [https://github.com/Sharmapank-j/MedObsMind](https://github.com/Sharmapank-j/MedObsMind)
 
 ## 🌟 Long-Term Vision
 
