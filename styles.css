@@ -963,7 +963,9 @@ body {
 /* Mobile menu for smaller screens */
 @media (max-width: 767px) {
     .nav-links {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-xs);
     }
     
     .logo h1 {
