@@ -1,0 +1,32 @@
+# Development Dependencies for MedObsMind Backend
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+httpx==0.25.2  # For testing FastAPI
+
+# Code Quality
+black==23.12.1  # Code formatter
+flake8==6.1.0  # Linter
+mypy==1.7.1  # Type checker
+isort==5.13.2  # Import sorter
+pylint==3.0.3  # Additional linter
+
+# Development Tools
+ipython==8.18.1  # Enhanced Python shell
+ipdb==0.13.13  # Debugger
+watchdog==3.0.0  # File watcher
+
+# Documentation
+pdoc==14.2.0  # Auto documentation
+mkdocs==1.5.3  # Documentation site
+
+# Performance
+locust==2.19.1  # Load testing
+py-spy==0.3.14  # Profiler
+
+# Security
+bandit==1.7.5  # Security linter
+safety==2.3.5  # Dependency vulnerability scanner
