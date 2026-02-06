@@ -11,8 +11,8 @@ from fastapi.responses import JSONResponse
 from app.core.config import settings
 from app.core.database import engine, Base
 
-# Import routers (will be created)
-# from app.api import patients, vitals, alerts, auth
+# Import routers
+from app.api import patients, vitals, alerts
 
 app = FastAPI(
     title="MedObsMind API",
@@ -62,10 +62,9 @@ async def health_check():
     }
 
 # Include API routers
-# app.include_router(auth.router, prefix="/api/v1/auth", tags=["Authentication"])
-# app.include_router(patients.router, prefix="/api/v1/patients", tags=["Patients"])
-# app.include_router(vitals.router, prefix="/api/v1/vitals", tags=["Vitals"])
-# app.include_router(alerts.router, prefix="/api/v1/alerts", tags=["Alerts"])
+app.include_router(patients.router, prefix="/api/v1", tags=["Patients"])
+app.include_router(vitals.router, prefix="/api/v1", tags=["Vitals"])
+app.include_router(alerts.router, prefix="/api/v1", tags=["Alerts"])
 
 @app.exception_handler(Exception)
 async def global_exception_handler(request, exc):

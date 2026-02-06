@@ -1,0 +1,67 @@
+MIT License
+
+Copyright (c) 2026 MedObsMind Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Medical Disclaimer
+
+MedObsMind is a clinical decision support tool intended to assist healthcare 
+professionals. It is NOT a substitute for professional medical judgment, 
+diagnosis, or treatment.
+
+### Important Limitations:
+
+1. **Not FDA/CE Approved**: This software is not approved as a medical device
+   by regulatory authorities. Use at your own risk.
+
+2. **Advisory Only**: All AI suggestions are advisory and must be reviewed by
+   qualified healthcare professionals before any clinical action.
+
+3. **No Autonomous Decisions**: The system does not make autonomous medical
+   decisions. Human clinician oversight is mandatory.
+
+4. **Not for Emergency Use**: Do not rely solely on this system in emergency
+   situations. Follow standard emergency protocols.
+
+5. **Liability**: The software is provided "as is" without warranty. The 
+   developers and contributors are not liable for any medical outcomes.
+
+6. **Professional Responsibility**: Healthcare providers using this system
+   retain full professional and legal responsibility for all clinical 
+   decisions and patient care.
+
+### Appropriate Use:
+
+- Decision support for trained healthcare professionals
+- Educational tool for medical students
+- Research and development purposes
+- Quality improvement initiatives
+
+### Inappropriate Use:
+
+- As a standalone diagnostic tool
+- By non-medical professionals for clinical decisions
+- Without appropriate clinical oversight
+- In place of standard medical care
+
+For clinical guidance, always consult qualified healthcare professionals and
+follow established medical protocols.
