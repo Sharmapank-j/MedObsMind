@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MedObsMind</string>
+    
+    <!-- Chat Screen -->
+    <string name="chat_title">Medical AI Assistant</string>
+    <string name="chat_input_hint">Ask me anything about medical informatics…</string>
+    <string name="send_button">Send</string>
+    <string name="menu_settings">Settings</string>
+    
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="model_selection_title">AI Model Selection</string>
+    <string name="model_description">Choose the AI model for medical consultation</string>
+    <string name="save_settings">Save</string>
+    <string name="settings_saved">Settings saved successfully</string>
+    
+    <!-- AI Model Options -->
+    <string name="model_gpt4">GPT-4 (Most Accurate)</string>
+    <string name="model_gpt35">GPT-3.5 (Faster Response)</string>
+    <string name="model_claude">Claude (Detailed Analysis)</string>
+    <string name="model_palm">PaLM 2 (Balanced Performance)</string>
+    <string name="model_llama">LLaMA (Open Source)</string>
+    
+    <!-- Chat Prompts -->
+    <string name="welcome_message">Welcome to MedObsMind! I\'m your AI assistant for medical informatics. I can help you with:\n\n• Medical research questions\n• Clinical decision support\n• Drug information\n• Medical terminology\n• Healthcare data analysis\n\nHow can I assist you today?</string>
+    <string name="system_prompt">You are a professional medical AI assistant specialized in medical informatics. Provide accurate, evidence-based information while being clear that you are an AI and users should consult healthcare professionals for medical advice.</string>
+    
+    <!-- Error Messages -->
+    <string name="error_empty_message">Please enter a message</string>
+    <string name="error_model_selection">Please select an AI model</string>
+</resources>
