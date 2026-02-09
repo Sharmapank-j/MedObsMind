@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class SettingsActivity extends AppCompatActivity {
     private RadioGroup modelSelectionGroup;
-    private RadioButton radioGpt4, radioGpt35, radioClaude, radioPalm, radioLlama;
+    private RadioButton radioMaxAccuracy, radioBalanced, radioFastResponse, radioDetailedAnalysis, radioStandard;
     private Button saveButton;
     
     private static final String PREFS_NAME = "MedObsMindPrefs";
@@ -24,11 +24,11 @@ public class SettingsActivity extends AppCompatActivity {
 
         // Initialize UI components
         modelSelectionGroup = findViewById(R.id.modelSelectionGroup);
-        radioGpt4 = findViewById(R.id.radioGpt4);
-        radioGpt35 = findViewById(R.id.radioGpt35);
-        radioClaude = findViewById(R.id.radioClaude);
-        radioPalm = findViewById(R.id.radioPalm);
-        radioLlama = findViewById(R.id.radioLlama);
+        radioMaxAccuracy = findViewById(R.id.radioGpt4);
+        radioBalanced = findViewById(R.id.radioGpt35);
+        radioFastResponse = findViewById(R.id.radioClaude);
+        radioDetailedAnalysis = findViewById(R.id.radioPalm);
+        radioStandard = findViewById(R.id.radioLlama);
         saveButton = findViewById(R.id.saveButton);
 
         // Load saved model
@@ -49,19 +49,19 @@ public class SettingsActivity extends AppCompatActivity {
 
         switch (savedModel) {
             case "Maximum Accuracy":
-                radioGpt4.setChecked(true);
+                radioMaxAccuracy.setChecked(true);
                 break;
             case "Balanced":
-                radioGpt35.setChecked(true);
+                radioBalanced.setChecked(true);
                 break;
             case "Fast Response":
-                radioClaude.setChecked(true);
+                radioFastResponse.setChecked(true);
                 break;
             case "Detailed Analysis":
-                radioPalm.setChecked(true);
+                radioDetailedAnalysis.setChecked(true);
                 break;
             case "Standard":
-                radioLlama.setChecked(true);
+                radioStandard.setChecked(true);
                 break;
         }
     }

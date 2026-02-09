@@ -48,7 +48,7 @@ public class VideoCallActivity extends AppCompatActivity {
         // Get selected model
         selectedModel = getIntent().getStringExtra("selected_model");
         if (selectedModel == null) {
-            selectedModel = "GPT-4";
+            selectedModel = "Balanced";
         }
 
         // Initialize UI components
