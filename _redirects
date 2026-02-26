@@ -14,5 +14,5 @@ http://medobsmind.netlify.app/*  https://medobsmind.netlify.app/:splat  301!
 # http://medobsmind.in/*  https://medobsmind.in/:splat  301!
 # http://www.medobsmind.in/*  https://medobsmind.in/:splat  301!
 
-# 404 handling
-/*  /index.html  404
+# SPA fallback - serve index.html for all routes
+/*  /index.html  200
