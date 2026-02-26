@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Dsquare Med-assist</string>
+    
+    <!-- Chat Screen -->
+    <string name="chat_title">Dsquare Med-assist</string>
+    <string name="chat_input_hint">Ask MedObsMind (LLMM) anything about medical informatics…</string>
+    <string name="send_button">Send</string>
+    <string name="menu_settings">Settings</string>
+    <string name="voice_input_button">Voice Input</string>
+    <string name="video_call_button">Video Consultation</string>
+    <string name="stop_recording">Stop</string>
+    <string name="listening">Listening...</string>
+    <string name="processing_speech">Processing speech...</string>
+    <string name="speaking">Speaking...</string>
+    
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="model_selection_title">MedObsMind LLMM Configuration</string>
+    <string name="model_description">Configure MedObsMind (Large Language Medical Model) performance and behavior</string>
+    <string name="save_settings">Save</string>
+    <string name="settings_saved">Settings saved successfully</string>
+    
+    <!-- MedObsMind LLMM Configuration Options -->
+    <string name="model_performance_high">Maximum Accuracy Mode</string>
+    <string name="model_performance_balanced">Balanced Mode (Recommended)</string>
+    <string name="model_performance_fast">Fast Response Mode</string>
+    <string name="model_performance_detailed">Detailed Analysis Mode</string>
+    <string name="model_performance_standard">Standard Mode</string>
+    
+    <!-- Chat Prompts -->
+    <string name="welcome_message">Welcome to Dsquare Med-assist!\n\nI\'m MedObsMind, a Large Language Medical Model (LLMM) specialized in medical informatics. I can help you with:\n\n• Medical research questions\n• Clinical decision support\n• Drug information\n• Medical terminology\n• Healthcare data analysis\n• Image and video interpretation\n\nHow can I assist you today?</string>
+    <string name="system_prompt">You are MedObsMind, a Large Language Medical Model (LLMM) and the AI agent of Dsquare Med-assist platform. You are specialized in medical informatics and healthcare. Provide accurate, evidence-based medical information while being clear that users should consult healthcare professionals for medical advice. You have capabilities in text, voice, and video interpretation.</string>
+    
+    <!-- Error Messages -->
+    <string name="error_empty_message">Please enter a message</string>
+    <string name="error_model_selection">Please select a performance mode</string>
+    <string name="error_permission_denied">Permission denied. Please grant necessary permissions.</string>
+    <string name="error_microphone_permission">Microphone permission is required for voice input</string>
+    <string name="error_camera_permission">Camera permission is required for video calls</string>
+    <string name="error_speech_recognition">Speech recognition not available</string>
+    
+    <!-- Video Call Screen -->
+    <string name="video_call_title">Dsquare Med-assist Video Consultation</string>
+    <string name="video_interpreting">MedObsMind LLMM is analyzing video…</string>
+    <string name="end_call">End Call</string>
+    <string name="toggle_camera">Switch Camera</string>
+    <string name="toggle_mic">Mute/Unmute</string>
+    <string name="video_interpretation_description">MedObsMind (Large Language Medical Model) live video interpretation analyzes visual medical information in real-time</string>
+</resources>
