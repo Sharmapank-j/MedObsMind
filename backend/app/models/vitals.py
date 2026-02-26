@@ -89,7 +89,7 @@ class VitalsObservation(Base):
     is_valid = Column(Boolean, default=True, comment="Data validation flag")
     
     # Flexible metadata
-    metadata = Column(JSONB, default=dict, comment="Additional vitals or device data")
+    extra_metadata = Column('metadata', JSONB, default=dict, comment="Additional vitals or device data")
     
     # Timestamps
     created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
