@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Exclude large AI model files -->
+    <exclude domain="file" path="models/"/>
+    
+    <!-- Exclude temporary cache -->
+    <exclude domain="cache" path="."/>
+    
+    <!-- Include important user data -->
+    <include domain="sharedpref" path="."/>
+    <include domain="database" path="."/>
+</full-backup-content>

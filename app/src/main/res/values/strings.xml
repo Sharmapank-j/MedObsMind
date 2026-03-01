@@ -1,3 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MedObsMind</string>
+    
+    <!-- Welcome and Introduction -->
+    <string name="welcome_message">Welcome to MedObsMind - Your On-Device Medical AI</string>
+    <string name="query_prompt">Ask me anything about medical topics. I work completely offline!</string>
+    <string name="enter_medical_query">Enter your medical query here…</string>
+    <string name="submit_query">Ask MedObsMind</string>
+    <string name="awaiting_query">Your AI response will appear here…</string>
+    
+    <!-- Features -->
+    <string name="feature_offline">100% Offline - Works without internet</string>
+    <string name="feature_privacy">Complete Privacy - Data stays on device</string>
+    <string name="feature_indian_context">Indian Medical Context - Trained on Indian data</string>
+    
+    <!-- Status Messages -->
+    <string name="loading_model">Loading AI model…</string>
+    <string name="model_ready">AI Model Ready</string>
+    <string name="processing_query">Processing your query…</string>
+    <string name="error_model_init">Failed to initialize AI model</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_camera">AI Camera</string>
+    <string name="nav_education">Learn</string>
+    <string name="nav_settings">Settings</string>
+    
+    <!-- Camera Assistance -->
+    <string name="camera_assistance">AI Camera Assistance</string>
+    <string name="camera_desc">Real-time surgical structure recognition</string>
+    
+    <!-- Education -->
+    <string name="education_title">Medical Education Simulations</string>
+    <string name="education_desc">Learn through safe, realistic scenarios</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_model">AI Model Settings</string>
+    <string name="settings_language">Language Preference</string>
+    <string name="settings_storage">Storage Management</string>
+    <string name="settings_privacy">Privacy & Security</string>
+    
+    <!-- Permissions -->
+    <string name="permission_camera">Camera permission is needed for AI camera assistance</string>
+    <string name="permission_storage">Storage permission is needed to save and load AI models</string>
+    
+    <!-- About -->
+    <string name="about_title">About MedObsMind</string>
+    <string name="about_description">MedObsMind is an on-device medical large language model trained on Indian medical data and scenarios. It works completely offline, ensuring privacy and accessibility even without connectivity.</string>
+    <string name="about_version">Version %1$s</string>
 <resources>
     <string name="app_name">Dsquare Med-assist</string>
     

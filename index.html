@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MedObsMind - On-device medical AI trained on Indian medical data. Works offline, ensuring privacy and accessibility even without connectivity.">
+    <title>MedObsMind - On-Device Medical AI for India</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero" role="banner">
+        <nav class="nav" role="navigation" aria-label="Main navigation">
+            <div class="container">
+                <div class="logo">
+                    <h1>MedObsMind</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#story">Our Story</a></li>
+                    <li><a href="#vision">Vision</a></li>
+                    <li><a href="#usecases">Use Cases</a></li>
+                    <li><a href="#technology">Technology</a></li>
+                    <li><a href="#contact" class="cta-button">Get Started</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="hero-content">
+            <div class="container">
+                <div class="hero-text">
+                    <h2 class="hero-title">On-Device Medical AI for India</h2>
+                    <p class="hero-subtitle">An offline medical large language model trained on Indian medical data and scenarios. Works without connectivity, ensuring privacy, accessibility, and local availability for students, professionals, and healthcare providers.</p>
+                    <div class="hero-badges">
+                        <span class="badge">🔒 100% On-Device</span>
+                        <span class="badge">📡 Works Offline</span>
+                        <span class="badge">🇮🇳 Indian Context</span>
+                    </div>
+                    <button class="primary-button" aria-label="Learn more about MedObsMind">Learn More</button>
+                </div>
+                <div class="hero-visual">
+                    <svg class="brainwave-animation" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated brainwave visualization">
+                        <title>Brainwave Pattern</title>
+                        <defs>
+                            <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" style="stop-color:#2a9d8f;stop-opacity:0.3" />
+                                <stop offset="50%" style="stop-color:#2a9d8f;stop-opacity:0.8" />
+                                <stop offset="100%" style="stop-color:#2a9d8f;stop-opacity:0.3" />
+                            </linearGradient>
+                        </defs>
+                        <path class="wave wave-1" d="M0,100 Q50,80 100,100 T200,100 T300,100 T400,100" stroke="url(#waveGradient)" stroke-width="3" fill="none"/>
+                        <path class="wave wave-2" d="M0,100 Q50,120 100,100 T200,100 T300,100 T400,100" stroke="url(#waveGradient)" stroke-width="2" fill="none"/>
+                        <path class="wave wave-3" d="M0,100 Q50,90 100,100 T200,100 T300,100 T400,100" stroke="url(#waveGradient)" stroke-width="2.5" fill="none"/>
+                        
+                        <!-- Brain outline -->
+                        <g class="brain-outline" transform="translate(200, 100)">
+                            <ellipse cx="0" cy="0" rx="40" ry="50" fill="none" stroke="#2a9d8f" stroke-width="2" opacity="0.4"/>
+                            <path d="M-25,-30 Q-15,-40 -5,-35 Q5,-40 15,-30" fill="none" stroke="#2a9d8f" stroke-width="1.5" opacity="0.4"/>
+                            <path d="M-25,0 Q-20,-10 -10,-5" fill="none" stroke="#2a9d8f" stroke-width="1.5" opacity="0.4"/>
+                            <path d="M25,0 Q20,-10 10,-5" fill="none" stroke="#2a9d8f" stroke-width="1.5" opacity="0.4"/>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main role="main">
+        <!-- Our Story Section -->
+        <section id="story" class="section story-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Story: From Idea to Impact</h2>
+                    <p class="section-subtitle">The journey of MedObsMind from a hackathon concept to a transformative medical AI platform</p>
+                </div>
+                <div class="story-timeline">
+                    <div class="timeline-item card-3d">
+                        <div class="timeline-icon">💡</div>
+                        <h3>The Hackathon Spark</h3>
+                        <p>Born from a medtech hackathon challenge, MedObsMind began with a simple question: How can we make medical AI accessible to everyone in India, regardless of connectivity?</p>
+                    </div>
+                    <div class="timeline-item card-3d">
+                        <div class="timeline-icon">🔬</div>
+                        <h3>Building the Prototype</h3>
+                        <p>We developed an on-device medical large language model specifically trained on Indian medical data, scenarios, and healthcare challenges unique to our context.</p>
+                    </div>
+                    <div class="timeline-item card-3d">
+                        <div class="timeline-icon">🚀</div>
+                        <h3>Testnet to Reality</h3>
+                        <p>From testnet deployment to real-world applications, MedObsMind evolved into a comprehensive offline assistant that works even in areas with no connectivity.</p>
+                    </div>
+                    <div class="timeline-item card-3d">
+                        <div class="timeline-icon">🌟</div>
+                        <h3>MedObsMind Today</h3>
+                        <p>Now serving students, teachers, professionals, and healthcare providers with privacy-first, locally-available medical AI assistance.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Vision Section -->
+        <section id="vision" class="section vision-section">
+            <div class="container">
+                <div class="card card-3d vision-card">
+                    <h2>Our Vision: Medical AI for Indian Healthcare</h2>
+                    <p class="vision-intro">MedObsMind addresses the unique challenges of Indian healthcare through contextually-aware, offline-first medical AI.</p>
+                    
+                    <div class="vision-grid">
+                        <div class="vision-point">
+                            <div class="vision-icon">🇮🇳</div>
+                            <h4>Indian Medical Context</h4>
+                            <p>Trained on Indian medical data, understanding local diseases, treatments, and healthcare scenarios specific to our population.</p>
+                        </div>
+                        <div class="vision-point">
+                            <div class="vision-icon">📡</div>
+                            <h4>Network Resilience</h4>
+                            <p>Built for India's diverse connectivity landscape - works perfectly offline, addressing network challenges in rural and remote areas.</p>
+                        </div>
+                        <div class="vision-point">
+                            <div class="vision-icon">🔒</div>
+                            <h4>Privacy by Design</h4>
+                            <p>100% on-device processing means your medical data never leaves your device, ensuring complete privacy and security.</p>
+                        </div>
+                        <div class="vision-point">
+                            <div class="vision-icon">🎓</div>
+                            <h4>Learn Through Simulation</h4>
+                            <p>Students learn medical procedures through safe simulations and game-like scenarios, making mistakes in virtual environments, not real life.</p>
+                        </div>
+                        <div class="vision-point">
+                            <div class="vision-icon">🏥</div>
+                            <h4>Local Availability</h4>
+                            <p>Always accessible, even in remote areas. No internet required means healthcare support wherever it's needed most.</p>
+                        </div>
+                        <div class="vision-point">
+                            <div class="vision-icon">⚖️</div>
+                            <h4>Ethical AI</h4>
+                            <p>Synthesized from Indian medical knowledge with ethical considerations, bias mitigation, and transparency at every step.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Use Cases Section -->
+        <section id="usecases" class="section usecases-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Real-World Applications</h2>
+                    <p class="section-subtitle">How MedObsMind transforms medical practice, education, and patient care</p>
+                </div>
+                
+                <div class="usecases-grid">
+                    <div class="usecase-card card-3d">
+                        <div class="usecase-icon">📹</div>
+                        <h3>AI Camera Assistance</h3>
+                        <p>Integrated with surgical cameras to help doctors identify anatomical structures that might be missed during complex procedures, providing real-time visual guidance.</p>
+                        <div class="usecase-features">
+                            <span class="feature-tag">Real-time Analysis</span>
+                            <span class="feature-tag">Structure Recognition</span>
+                            <span class="feature-tag">Safety Alerts</span>
+                        </div>
+                    </div>
+
+                    <div class="usecase-card card-3d">
+                        <div class="usecase-icon">🎮</div>
+                        <h3>Medical Education</h3>
+                        <p>Students practice procedures in realistic simulations, learning through trial and error in safe virtual environments before real-world application.</p>
+                        <div class="usecase-features">
+                            <span class="feature-tag">Safe Learning</span>
+                            <span class="feature-tag">Realistic Scenarios</span>
+                            <span class="feature-tag">Instant Feedback</span>
+                        </div>
+                    </div>
+
+                    <div class="usecase-card card-3d">
+                        <div class="usecase-icon">👨‍⚕️</div>
+                        <h3>Professional Support</h3>
+                        <p>Healthcare professionals get on-demand assistance for diagnosis support, treatment protocols, and drug interactions - all offline and private.</p>
+                        <div class="usecase-features">
+                            <span class="feature-tag">Clinical Decision Support</span>
+                            <span class="feature-tag">Drug Database</span>
+                            <span class="feature-tag">Evidence-Based</span>
+                        </div>
+                    </div>
+
+                    <div class="usecase-card card-3d">
+                        <div class="usecase-icon">🏘️</div>
+                        <h3>Rural Healthcare</h3>
+                        <p>Empowering rural health workers with medical knowledge and guidance, even in areas with zero connectivity, bridging the urban-rural healthcare gap.</p>
+                        <div class="usecase-features">
+                            <span class="feature-tag">Offline Access</span>
+                            <span class="feature-tag">Local Languages</span>
+                            <span class="feature-tag">Community Health</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technology Section -->
+        <section id="technology" class="section technology-section">
+            <div class="container">
+                <div class="card card-3d">
+                    <h2>Technology: On-Device Medical LLM</h2>
+                    <p class="tech-intro">MedObsMind leverages cutting-edge on-device AI technology to deliver powerful medical intelligence without compromising privacy or requiring internet connectivity.</p>
+                    
+                    <div class="tech-grid">
+                        <div class="tech-feature">
+                            <h4>🧠 Large Language Medical Model (LLMM)</h4>
+                            <p>Advanced language model specialized for medical understanding, trained on comprehensive Indian medical literature, case studies, and clinical guidelines.</p>
+                        </div>
+                        <div class="tech-feature">
+                            <h4>📱 On-Device Processing</h4>
+                            <p>All inference happens directly on your device. No cloud dependencies, no data transmission, complete privacy and instant responses.</p>
+                        </div>
+                        <div class="tech-feature">
+                            <h4>🇮🇳 Indian Medical Data</h4>
+                            <p>Synthesized from Indian medical journals, research papers, treatment protocols, and real-world scenarios specific to Indian healthcare challenges.</p>
+                        </div>
+                        <div class="tech-feature">
+                            <h4>⚡ Optimized Performance</h4>
+                            <p>Model compression and optimization techniques ensure smooth performance even on modest hardware, making it accessible across devices.</p>
+                        </div>
+                        <div class="tech-feature">
+                            <h4>🔄 Regular Updates</h4>
+                            <p>Downloadable model updates keep the knowledge base current with latest medical research and treatment guidelines.</p>
+                        </div>
+                        <div class="tech-feature">
+                            <h4>🌐 Multi-Language Support</h4>
+                            <p>Understanding and responding in multiple Indian languages, making medical knowledge accessible to diverse populations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Privacy Promise Section -->
+        <section id="privacy" class="section privacy-section">
+            <div class="container">
+                <div class="card card-3d">
+                    <div class="card-icon">
+                        <svg class="shield-icon" viewBox="0 0 100 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Shield icon representing privacy protection">
+                            <title>Privacy Shield</title>
+                            <path d="M50,10 L20,25 L20,55 Q20,85 50,110 Q80,85 80,55 L80,25 Z" 
+                                  fill="#e6f7ff" stroke="#2a9d8f" stroke-width="3"/>
+                            <path d="M50,30 L35,50 L45,50 L45,75 L55,75 L55,50 L65,50 Z" 
+                                  fill="#2a9d8f" opacity="0.7"/>
+                        </svg>
+                    </div>
+                    <h3>Privacy Through On-Device AI</h3>
+                    <p>Your medical data never leaves your device. With 100% on-device processing, MedObsMind ensures absolute privacy - your information stays with you, always.</p>
+                    <ul class="feature-list">
+                        <li>🔒 100% On-Device Processing</li>
+                        <li>🛡️ Zero Data Transmission</li>
+                        <li>🎯 No Cloud Dependencies</li>
+                        <li>✅ Complete User Control</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pattern Insights Section -->
+        <section id="insights" class="section insights-section">
+            <div class="container">
+                <div class="card card-3d">
+                    <div class="card-header">
+                        <h3>Intelligent Medical Insights</h3>
+                        <p>Advanced pattern recognition trained on Indian medical scenarios, providing contextually-aware insights that matter for local healthcare challenges.</p>
+                    </div>
+                    <div class="data-viz-mockup">
+                        <svg viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Data visualization showing wellness trends">
+                            <title>Wellness Trends Visualization</title>
+                            <!-- Grid lines -->
+                            <g class="grid" opacity="0.2">
+                                <line x1="50" y1="50" x2="50" y2="250" stroke="#2a9d8f" stroke-width="1"/>
+                                <line x1="50" y1="250" x2="450" y2="250" stroke="#2a9d8f" stroke-width="1"/>
+                                <line x1="50" y1="200" x2="450" y2="200" stroke="#ccc" stroke-width="0.5" stroke-dasharray="5,5"/>
+                                <line x1="50" y1="150" x2="450" y2="150" stroke="#ccc" stroke-width="0.5" stroke-dasharray="5,5"/>
+                                <line x1="50" y1="100" x2="450" y2="100" stroke="#ccc" stroke-width="0.5" stroke-dasharray="5,5"/>
+                            </g>
+                            
+                            <!-- Bars -->
+                            <g class="bars">
+                                <rect class="bar bar-1" x="80" y="180" width="40" height="70" fill="#2a9d8f" rx="5"/>
+                                <rect class="bar bar-2" x="150" y="140" width="40" height="110" fill="#2a9d8f" rx="5"/>
+                                <rect class="bar bar-3" x="220" y="120" width="40" height="130" fill="#2a9d8f" rx="5"/>
+                                <rect class="bar bar-4" x="290" y="90" width="40" height="160" fill="#2a9d8f" rx="5"/>
+                                <rect class="bar bar-5" x="360" y="70" width="40" height="180" fill="#2a9d8f" rx="5"/>
+                            </g>
+                            
+                            <!-- Trend line -->
+                            <path class="trend-line" d="M100,200 L170,155 L240,130 L310,100 L380,75" 
+                                  stroke="#264653" stroke-width="3" fill="none" stroke-dasharray="5,5"/>
+                            
+                            <!-- Data points -->
+                            <circle class="data-point" cx="100" cy="200" r="6" fill="#e76f51"/>
+                            <circle class="data-point" cx="170" cy="155" r="6" fill="#e76f51"/>
+                            <circle class="data-point" cx="240" cy="130" r="6" fill="#e76f51"/>
+                            <circle class="data-point" cx="310" cy="100" r="6" fill="#e76f51"/>
+                            <circle class="data-point" cx="380" cy="75" r="6" fill="#e76f51"/>
+                            
+                            <!-- Labels -->
+                            <text x="100" y="270" text-anchor="middle" font-size="12" fill="#666">Week 1</text>
+                            <text x="170" y="270" text-anchor="middle" font-size="12" fill="#666">Week 2</text>
+                            <text x="240" y="270" text-anchor="middle" font-size="12" fill="#666">Week 3</text>
+                            <text x="310" y="270" text-anchor="middle" font-size="12" fill="#666">Week 4</text>
+                            <text x="380" y="270" text-anchor="middle" font-size="12" fill="#666">Week 5</text>
+                        </svg>
+                        <p class="viz-caption">AI-powered analysis of medical patterns and trends</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ethical Charter Section -->
+        <section id="ethics" class="section ethics-section">
+            <div class="container">
+                <div class="card card-3d">
+                    <div class="badge-container">
+                        <svg class="ethics-badge" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ethical charter certification badge">
+                            <title>Ethical Charter Badge</title>
+                            <defs>
+                                <linearGradient id="badgeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#2a9d8f;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#1a7d6f;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <!-- Badge circle -->
+                            <circle cx="100" cy="100" r="90" fill="url(#badgeGradient)" stroke="#fff" stroke-width="3"/>
+                            <circle cx="100" cy="100" r="75" fill="none" stroke="#fff" stroke-width="2" opacity="0.5"/>
+                            
+                            <!-- Check mark / Seal -->
+                            <path d="M70,100 L90,120 L130,70" stroke="#fff" stroke-width="8" fill="none" 
+                                  stroke-linecap="round" stroke-linejoin="round"/>
+                            
+                            <!-- Text on badge -->
+                            <text x="100" y="155" text-anchor="middle" font-size="16" fill="#fff" font-weight="bold">CERTIFIED</text>
+                            <text x="100" y="170" text-anchor="middle" font-size="12" fill="#fff">ETHICAL</text>
+                        </svg>
+                    </div>
+                    <h3>Built for Indian Healthcare</h3>
+                    <p>Ethical AI designed specifically for Indian medical contexts, with cultural sensitivity, regional awareness, and commitment to equitable healthcare access across all communities.</p>
+                    <div class="ethics-principles">
+                        <div class="principle">
+                            <h4>Contextual Accuracy</h4>
+                            <p>Trained on Indian medical data and scenarios</p>
+                        </div>
+                        <div class="principle">
+                            <h4>Accessibility</h4>
+                            <p>Works offline, reaching underserved areas</p>
+                        </div>
+                        <div class="principle">
+                            <h4>Privacy First</h4>
+                            <p>Your data stays on your device, always</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section id="contact" class="section cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h3>Experience Offline Medical AI</h3>
+                    <p>Join the revolution in accessible, private, and contextually-aware medical intelligence for India</p>
+                    <button class="primary-button large" aria-label="Start using MedObsMind">Download MedObsMind</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>MedObsMind</h4>
+                    <p>On-Device Medical AI for India</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#ethics">Ethical Guidelines</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>support@medobsmind.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 MedObsMind. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
