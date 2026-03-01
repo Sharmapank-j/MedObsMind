@@ -79,7 +79,7 @@ To use the custom domain (medobsmind.in), see [DNS_SETUP.md](DNS_SETUP.md) for c
 
 ---
 
-**Last Updated:** February 6, 2026  
+**Last Updated:** March 1, 2026 (Reverified)  
 **Status:** Website LIVE and accessible!  
 
 © 2026 d²media | Governed by d³media | MedObsMind.in
